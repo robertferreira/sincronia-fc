@@ -1,0 +1,15 @@
+:root {
+    --cor-principal: #121212;
+    --cor-secundaria: #1e52c7;
+    --cor-extra1: #09193c;
+    --cor-extra2: #ffffff;
+    --fonte-principal: #232323;
+    --fonte-secundaria: #1e52c7;
+    --fonte-extra1: #09193c;
+    --fonte-extra2: #ffffff;
+}
+
+nav.bg-nav {
+    background-color: var(--cor-principal) !important;
+    color: var(--fonte-extra2);
+}
