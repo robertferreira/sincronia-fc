@@ -17,16 +17,30 @@
     --fonte-extra2: #ffffff;
 }
 
-nav.bg-nav {
-    background-color: var(--cor-principal) !important;
-    padding: 10px 20px;
+div#div-principal {
+    display: flex;
 }
 
-nav.bg-nav a {
+div.div-conteudo{
+    width: 90%;
+    padding: 40px;
+}
+
+div.div-cabecalho{
+    width: 10%;
+}
+
+nav.nav-principal {
+    background-color: var(--cor-principal) !important;
+    padding: 10px;
+    height: 100vw;;
+}
+
+nav.nav-principal a {
     color: var(--fonte-extra2);
     margin: 10px 20px;
 }
 
-nav.bg-nav a:hover {
+nav.nav-principal a:hover {
     color: var(--fonte-secundaria);
 }
