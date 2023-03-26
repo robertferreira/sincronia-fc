@@ -1,3 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
 :root {
     --cor-principal: #121212;
     --cor-secundaria: #1e52c7;
