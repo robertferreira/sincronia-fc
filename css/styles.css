@@ -19,6 +19,7 @@
     --fonte-extra3: #6494ff;
 }
 
+/*---------------- LAYOUT ----------------*/
 div#div-principal {
     display: flex;
     flex-direction: row;
