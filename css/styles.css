@@ -36,7 +36,6 @@ div.div-cabecalho{
     align-items: center;
     width: 10%;
     background-color: var(--cor-principal);
-    color: var(--fonte-extra2);
     padding: 10px;
 }
 
@@ -55,3 +54,13 @@ div.div-cabecalho div.menu-cabecalho {
 div.div-cabecalho div.menu-cabecalho ul li{
     margin: 20px 0px 50px 0px;
 }
+
+div.div-cabecalho div.menu-cabecalho ul li a{
+    color: var(--fonte-extra2);
+    transition: 0.3s;
+}
+
+div.div-cabecalho div.menu-cabecalho ul li a:hover{
+    color: var(--fonte-secundaria);
+}
+
