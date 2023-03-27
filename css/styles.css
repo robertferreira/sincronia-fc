@@ -19,28 +19,34 @@
 
 div#div-principal {
     display: flex;
+    flex-direction: row;
 }
 
 div.div-conteudo{
     width: 90%;
-    padding: 40px;
+    height: 100vh;
+    background-color: var(--cor-extra2);
+    color: var(--fonte-principal);
+    padding: 30px;
 }
 
 div.div-cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 10%;
-}
-
-nav.nav-principal {
-    background-color: var(--cor-principal) !important;
-    padding: 10px;
-    height: 100vw;;
-}
-
-nav.nav-principal a {
+    height: 100vh;
+    background-color: var(--cor-principal);
     color: var(--fonte-extra2);
-    margin: 10px 20px;
+    padding: 10px;
 }
 
-nav.nav-principal a:hover {
-    color: var(--fonte-secundaria);
+div.div-cabecalho div.logo-cabecalho {
+    height: 20%;
+    margin: 10px;
+}
+
+div.div-cabecalho div.menu-cabecalho {
+    height: 80%;
+    margin: 10px;
 }
