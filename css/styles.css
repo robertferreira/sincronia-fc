@@ -20,11 +20,11 @@
 div#div-principal {
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 
 div.div-conteudo{
     width: 90%;
-    height: 100vh;
     background-color: var(--cor-extra2);
     color: var(--fonte-principal);
     padding: 30px;
@@ -35,18 +35,23 @@ div.div-cabecalho{
     flex-direction: column;
     align-items: center;
     width: 10%;
-    height: 100vh;
     background-color: var(--cor-principal);
     color: var(--fonte-extra2);
     padding: 10px;
 }
 
+/*---------------- CABEÇALHO ----------------*/
 div.div-cabecalho div.logo-cabecalho {
-    height: 20%;
-    margin: 10px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 20px;
 }
 
 div.div-cabecalho div.menu-cabecalho {
-    height: 80%;
-    margin: 10px;
+    flex: 5;
+}
+
+div.div-cabecalho div.menu-cabecalho ul li{
+    margin: 20px 0px 50px 0px;
 }
