@@ -11,10 +11,12 @@
     --cor-secundaria: #1e52c7;
     --cor-extra1: #09193c;
     --cor-extra2: #ffffff;
+    --cor-extra3: #6494ff;
     --fonte-principal: #232323;
     --fonte-secundaria: #1e52c7;
     --fonte-extra1: #09193c;
     --fonte-extra2: #ffffff;
+    --fonte-extra3: #6494ff;
 }
 
 div#div-principal {
@@ -61,6 +63,10 @@ div.div-cabecalho div.menu-cabecalho ul li a{
 }
 
 div.div-cabecalho div.menu-cabecalho ul li a:hover{
-    color: var(--fonte-secundaria);
+    color: var(--fonte-extra3);
 }
 
+div.div-cabecalho div.menu-cabecalho ul li a i{
+    margin-right: 10px;
+    color: var(--fonte-extra3);
+}
