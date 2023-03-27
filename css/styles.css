@@ -42,11 +42,12 @@ div.div-cabecalho{
     padding: 10px;
     z-index: 1000;
     box-shadow: 0px 0px 15px var(--cor-principal);
+    transition: 1s;
 }
 
 /*---------- CABEÇALHO EXPANDIDO -------------*/
-div.div-cabecalho #cabecalho-expandido {
-    width: 100px;
+div.cabecalho-expandido {
+    width: 150px;
 }
 
 
