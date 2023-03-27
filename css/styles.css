@@ -44,6 +44,12 @@ div.div-cabecalho{
     box-shadow: 0px 0px 15px var(--cor-principal);
 }
 
+/*---------- CABEÇALHO EXPANDIDO -------------*/
+div.div-cabecalho #cabecalho-expandido {
+    width: 100px;
+}
+
+
 /*---------------- CABEÇALHO ----------------*/
 div.div-cabecalho div.logo-cabecalho {
     display: flex;
