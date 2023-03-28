@@ -45,15 +45,6 @@ div.div-cabecalho{
     transition: 1.5s;
 }
 
-/*---------- CABEÇALHO EXPANDIDO -------------*/
-div.cabecalho-expandido {
-    width: 150px;
-}
-
-div#logo-cabecalho-expandido {
-    width: 100px;
-}
-
 /*---------------- CABEÇALHO ----------------*/
 div.div-cabecalho div.logo-cabecalho {
     display: flex;
@@ -83,4 +74,13 @@ div.div-cabecalho div.menu-cabecalho ul li a:hover{
 
 div.div-cabecalho div.menu-cabecalho ul li a i{
     color: var(--fonte-extra3);
+}
+
+/*---------- CABEÇALHO EXPANDIDO -------------*/
+div.cabecalho-expandido {
+    width: 150px;
+}
+
+div#logo-cabecalho-expandido {
+    width: 100px;
 }

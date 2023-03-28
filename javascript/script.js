@@ -2,7 +2,7 @@ const expandirCabecalho = function () {
     let cabecalho = document.getElementById('cabecalho');
     let logo_cabecalho = document.getElementById('logo-cabecalho');
 
-    // EXPANDIR CABEÇALHO
+    // EXPANDIR CABEÇALHO E LOGO
     cabecalho.addEventListener("mouseover", () => {
       cabecalho.classList.add('cabecalho-expandido')
       logo_cabecalho.setAttribute("id", "logo-cabecalho-expandido")
