@@ -47,9 +47,12 @@ div.div-cabecalho{
 
 /*---------- CABEÇALHO EXPANDIDO -------------*/
 div.cabecalho-expandido {
-    width: 250px;
+    width: 150px;
 }
 
+div#logo-cabecalho-expandido {
+    width: 100px;
+}
 
 /*---------------- CABEÇALHO ----------------*/
 div.div-cabecalho div.logo-cabecalho {
@@ -57,6 +60,8 @@ div.div-cabecalho div.logo-cabecalho {
     flex: 1;
     align-items: center;
     margin: 20px;
+    width: 60px;
+    transition: 1.5s;
 }
 
 div.div-cabecalho div.menu-cabecalho {
