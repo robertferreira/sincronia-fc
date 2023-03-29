@@ -11,17 +11,18 @@
 :root {
     --cor-principal: #121212;
     --cor-secundaria: #1e52c7;
-    --cor-extra1: #09193c;
+    --cor-extra1: #071a42;
     --cor-extra2: #ffffff;
     --cor-extra3: #6494ff;
     --fonte-principal: #232323;
     --fonte-secundaria: #1e52c7;
-    --fonte-extra1: #09193c;
+    --fonte-extra1: #071a42;
     --fonte-extra2: #ffffff;
     --fonte-extra3: #6494ff;
 }
 
 /*---------------- LAYOUT ----------------*/
+/*Principal*/
 div#div-principal {
 display: flex;
 width: 100%;
@@ -30,11 +31,13 @@ background-color: var(--cor-extra1);
 color: var(--fonte-extra2);
 }
 
+/* Conteúdo*/
 div.div-conteudo{
     margin: 20px 20px 20px 120px;
     padding: 10px;
 }
 
+/* Cabeçalho*/
 div.div-cabecalho{
     position: fixed;
     left: 0px;
