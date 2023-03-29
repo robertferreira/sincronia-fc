@@ -1,3 +1,8 @@
+@keyframes animate-div {
+    from { opacity: 0.2; margin-top: -2px;}
+    to { opacity: 1;margin-top: 0px;}
+}
+
 /*---------------- CABEÇALHO ----------------*/
 /* Logo */
 div.div-cabecalho div.logo-cabecalho {
@@ -54,9 +59,4 @@ div#logo-cabecalho-expandido {
     display: block !important;
     margin-left: 10px;
     animation: animate-div 0.7s;
-}
-
-@keyframes animate-div {
-    from { opacity: 0.2; margin-top: -2px;}
-    to { opacity: 1;margin-top: 0px;}
 }
