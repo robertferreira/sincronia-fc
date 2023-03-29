@@ -50,11 +50,12 @@ div.cabecalho-expandido {
     width: 150px !important;
 }
 
-/* Logo Expandido*/
+/* Logo Expandido */
 div#logo-cabecalho-expandido {
     width: 100px;
 }
 
+/* Menu Expandido */
 .menu-cabecalho-opcao-expandido {
     display: block !important;
     margin-left: 10px;
