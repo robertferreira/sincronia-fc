@@ -1,0 +1,61 @@
+/*---------------- CABEÇALHO ----------------*/
+/* Logo */
+div.div-cabecalho div.logo-cabecalho {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 20px;
+    width: 60px;
+    transition: 0.7s;
+}
+
+div.div-cabecalho div.logo-cabecalho a:hover{
+filter: brightness(1.3);
+}
+
+/* Menu de Opções */
+div.div-cabecalho div.menu-cabecalho {
+    flex: 5;
+}
+
+div.div-cabecalho div.menu-cabecalho ul li{
+    margin: 20px 0px 50px 0px;
+}
+
+div.div-cabecalho div.menu-cabecalho ul li a{
+    color: var(--fonte-extra2);
+    transition: 0.3s;
+    display: flex;
+}
+
+div.div-cabecalho div.menu-cabecalho ul li a:hover{
+    filter: brightness(0.7);
+}
+
+div.div-cabecalho div.menu-cabecalho ul li a i{
+    color: var(--fonte-extra3);
+}
+
+div.div-cabecalho div.menu-cabecalho ul li a .menu-cabecalho-opcao {
+    display: none;
+} 
+
+/*---------- CABEÇALHO EXPANDIDO -------------*/
+div.cabecalho-expandido {
+    width: 150px !important;
+}
+
+div#logo-cabecalho-expandido {
+    width: 100px;
+}
+
+.menu-cabecalho-opcao-expandido {
+    display: block !important;
+    margin-left: 10px;
+    animation: animate-div 0.7s;
+}
+
+@keyframes animate-div {
+    from { opacity: 0.2; margin-top: -2px;}
+    to { opacity: 1;margin-top: 0px;}
+}

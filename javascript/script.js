@@ -3,15 +3,29 @@ const expandirCabecalho = function () {
     let logo_cabecalho = document.getElementById('logo-cabecalho');
     let opcao_cabecalho = document.getElementsByClassName('menu-cabecalho-opcao');
 
-    // EXPANDIR CABEÇALHO E LOGO
+    // EXPANDIR CABEÇALHO AO PASSAR O MOUSE
     cabecalho.addEventListener("mouseover", () => {
+      // Expandir cabeçalho e logo
       cabecalho.classList.add('cabecalho-expandido');
       logo_cabecalho.setAttribute("id", "logo-cabecalho-expandido");
-      //opcao_cabecalho.item
+
+      // Expandir nome das opções
+      for (let i = 0; i < opcao_cabecalho.length; i++) {
+        opcao_cabecalho.item(i).classList.add("menu-cabecalho-opcao-expandido");
+      }
     })
+
+    // RETRAIR CABEÇALHO AO TIRAR O MOUSE
     cabecalho.addEventListener("mouseout", () => {
+      // Retrair cabeçalho e logo
       cabecalho.classList.remove('cabecalho-expandido');
       logo_cabecalho.removeAttribute("id", "logo-cabecalho-expandido");
+
+      // Retrair nome das opções
+      for (let i = 0; i < opcao_cabecalho.length; i++) {
+        opcao_cabecalho.item(i).classList.remove("menu-cabecalho-opcao-expandido");
+      }
+
     })
 
     //INSERIR NOMES
