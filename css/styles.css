@@ -99,5 +99,6 @@ div#logo-cabecalho-expandido {
 }
 
 .menu-cabecalho-opcao-expandido {
-    display: block
+    display: block;
+    margin-left: 10px;
 }
