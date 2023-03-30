@@ -15,10 +15,6 @@ div.div-cabecalho div.logo-cabecalho {
     transition: 0.7s;
 }
 
-div.div-cabecalho div.logo-cabecalho a:hover{
-filter: brightness(1.3);
-}
-
 /* Menu de Opções */
 div.div-cabecalho div.menu-cabecalho {
     flex: 5;
