@@ -61,4 +61,5 @@ div.div-cabecalho{
     z-index: 1000;
     box-shadow: 0px 0px 15px var(--cor-principal);
     transition: 0.5s;
+    overflow: auto;
 }

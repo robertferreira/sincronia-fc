@@ -7,7 +7,7 @@ div.div-conteudo{
 
 /*---------- CABEÇALHO MOBILE -------------*/
      div.div-cabecalho {
-        display: block !important;
+        display: none !important;
         width: 100% !important;
         align-items: start !important;
         padding: 30px !important;
