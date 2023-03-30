@@ -31,6 +31,7 @@ div.div-cabecalho div.menu-cabecalho ul li a{
     color: var(--fonte-extra2);
     transition: 0.3s;
     display: flex;
+    font-weight: 300;
 }
 
 div.div-cabecalho div.menu-cabecalho ul li a:hover{
@@ -89,7 +90,7 @@ div.div-cabecalho div.menu-cabecalho{
 }
 
 div.div-cabecalho div.menu-cabecalho ul li{
-    font-size: 20pt;
+    font-size: 1.3rem;
     margin: 0px 0px 40% 0px;
 }
 
