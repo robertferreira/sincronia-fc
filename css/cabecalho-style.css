@@ -77,6 +77,12 @@ div#logo-cabecalho-expandido {
     box-shadow: none !important;
 }
 
+/* Botão Abrir Cabeçalho*/
+div.div-cabecalho{}
+
+/* Botão Fechar Cabeçalho*/
+div.div-cabecalho{}
+
 /* Logo */
 div.div-cabecalho div.logo-cabecalho{
     margin: 0px;

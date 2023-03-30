@@ -13,6 +13,10 @@
     list-style: none;
 }
 
+p {
+    text-align: justify;
+}
+
 :root {
     --cor-principal: #121212;
     --cor-secundaria: #1e52c7;
