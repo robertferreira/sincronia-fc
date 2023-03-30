@@ -3,6 +3,7 @@
 
 /* Import CSS */
 @import url(./cabecalho-style.css);
+@import url(./mobile-style.css);
 
 
 * {

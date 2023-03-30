@@ -1,0 +1,48 @@
+/*---------- CABEÇALHO MOBILE -------------*/
+@media only screen and (max-width: 768px) {
+
+    /* Cabeçalho Mobile */
+     div.div-cabecalho {
+        display: none !important;
+        width: 100% !important;
+        align-items: start !important;
+        padding: 30px !important;
+        box-shadow: none !important;
+    }
+    
+    /* Botão Abrir Cabeçalho Mobile */
+    div.botao-abrir-menu-cabecalho{
+        display: block;
+        position: fixed;
+        right: 0px;
+        top: 10px;
+    }
+    
+    /* Botão Fechar Cabeçalho Mobile */
+    div.div-cabecalho{
+    
+    }
+    
+    /* Logo Mobile */
+    div.div-cabecalho div.logo-cabecalho{
+        margin: 0px;
+        flex: 0;
+        width: 80px;
+        margin-bottom: 15%;
+    }
+    
+    /* Menu de Opções Mobile*/
+    div.div-cabecalho div.menu-cabecalho{
+        flex: 1;
+    }
+    
+    div.div-cabecalho div.menu-cabecalho ul li{
+        font-size: 1.3rem;
+        margin: 0px 0px 40% 0px;
+    }
+    
+    div.div-cabecalho div.menu-cabecalho ul li a .menu-cabecalho-opcao {
+        display: block;
+        margin-left: 10px;
+    }
+    }

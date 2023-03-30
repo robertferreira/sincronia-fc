@@ -47,6 +47,11 @@ div.div-cabecalho div.menu-cabecalho ul li a .menu-cabecalho-opcao {
     display: none;
 } 
 
+/* Botão Abrir Cabeçalho Mobile */
+div.botao-abrir-menu-cabecalho{
+    display: none;
+}
+
 /*---------- CABEÇALHO EXPANDIDO -------------*/
 @media only screen and (min-width: 769px) {
 div.cabecalho-expandido {
@@ -63,46 +68,5 @@ div#logo-cabecalho-expandido {
     display: block !important;
     margin-left: 10px;
     animation: animate-div 0.9s;
-}
-}
-
-/*---------- CABEÇALHO MOBILE -------------*/
-@media only screen and (max-width: 768px) {
-
-/* Cabeçalho */
- div.div-cabecalho {
-    width: 100% !important;
-    align-items: start !important;
-    padding: 30px !important;
-    box-shadow: none !important;
-}
-
-/* Botão Abrir Cabeçalho*/
-div.div-cabecalho{}
-
-/* Botão Fechar Cabeçalho*/
-div.div-cabecalho{}
-
-/* Logo */
-div.div-cabecalho div.logo-cabecalho{
-    margin: 0px;
-    flex: 0;
-    width: 80px;
-    margin-bottom: 15%;
-}
-
-/* Menu de  Opções*/
-div.div-cabecalho div.menu-cabecalho{
-    flex: 1;
-}
-
-div.div-cabecalho div.menu-cabecalho ul li{
-    font-size: 1.3rem;
-    margin: 0px 0px 40% 0px;
-}
-
-div.div-cabecalho div.menu-cabecalho ul li a .menu-cabecalho-opcao {
-    display: block;
-    margin-left: 10px;
 }
 }
