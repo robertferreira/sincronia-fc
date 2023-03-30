@@ -1,7 +1,11 @@
-/*---------- CABEÇALHO MOBILE -------------*/
 @media only screen and (max-width: 768px) {
+/*---------- CONTEÚDO MOBILE -------------*/
+div.div-conteudo{
+    margin: 30px !important;
+    padding: 15px !important;
+}
 
-    /* Cabeçalho Mobile */
+/*---------- CABEÇALHO MOBILE -------------*/
      div.div-cabecalho {
         display: none !important;
         width: 100% !important;
@@ -14,13 +18,17 @@
     div.botao-abrir-menu-cabecalho{
         display: block;
         position: fixed;
-        right: 0px;
-        top: 10px;
+        left: 0px;
+        top: 0px;
+        background-color: var(--cor-principal);
+        padding: 10px 15px;
+        border-bottom-right-radius: 20px;
+        font-size: 1em;
     }
     
     /* Botão Fechar Cabeçalho Mobile */
     div.div-cabecalho{
-    
+        display: block;
     }
     
     /* Logo Mobile */
