@@ -31,7 +31,7 @@
 div#div-principal {
 display: flex;
 width: 100%;
-height: 100vh;
+height: 100%;
 background-color: var(--cor-extra1);
 color: var(--fonte-extra2);
 }
@@ -49,8 +49,8 @@ div.div-cabecalho{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
     width: 70px;
+    height: 100%;
     background-color: var(--cor-principal);
     padding: 10px;
     z-index: 1000;
