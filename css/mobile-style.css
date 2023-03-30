@@ -15,7 +15,7 @@ div.div-conteudo{
     }
     
     /* Botão Abrir Cabeçalho Mobile */
-    div.botao-abrir-menu-cabecalho{
+    div#botao-abrir-menu-cabecalho{
         display: block;
         position: fixed;
         left: 0px;
