@@ -20,10 +20,11 @@ div.div-conteudo{
         position: fixed;
         left: 0px;
         top: 0px;
-        background-color: var(--cor-principal);
+        background-color: var(--cor-secundaria);
+        color: var(--fonte-extra1);
         padding: 10px 15px;
         border-bottom-right-radius: 20px;
-        font-size: 1em;
+        font-size: 1.3em;
     }
     
     /* Botão Fechar Cabeçalho Mobile */
