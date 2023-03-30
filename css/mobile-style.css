@@ -22,8 +22,7 @@ div.div-conteudo{
         top: 0px;
         background-color: var(--cor-secundaria);
         color: var(--fonte-extra1);
-        padding: 10px 15px;
-        border-bottom-right-radius: 20px;
+        padding: 7px 14px;
         font-size: 1.5em;
     }
     
