@@ -7,11 +7,12 @@ div.div-conteudo{
 
 /*---------- CABEÇALHO MOBILE -------------*/
      div.div-cabecalho {
-        display: none !important;
+        display: block !important;
         width: 100% !important;
         align-items: start !important;
         padding: 30px !important;
         box-shadow: none !important;
+        overflow: scroll;
     }
     
     /* Botão Abrir Cabeçalho Mobile */
@@ -46,7 +47,7 @@ div.div-conteudo{
     
     div.div-cabecalho div.menu-cabecalho ul li{
         font-size: 1.3rem;
-        margin: 0px 0px 40% 0px;
+        margin: 0px 0px 15% 0px;
     }
     
     div.div-cabecalho div.menu-cabecalho ul li a .menu-cabecalho-opcao {

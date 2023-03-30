@@ -48,7 +48,7 @@ div.div-cabecalho div.menu-cabecalho ul li a .menu-cabecalho-opcao {
 } 
 
 /* Botão Abrir Cabeçalho Mobile */
-div#botao-abrir-menu-cabecalho{
+div.botao-abrir-menu-cabecalho{
     display: none;
 }
 
