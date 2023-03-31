@@ -1,0 +1,16 @@
+.div-home-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.div-home-1-texto {
+   width: 70%;
+}
+
+.div-home-1-imagem {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
