@@ -4,7 +4,6 @@
 /* Import CSS */
 @import url(./cabecalho-style.css);
 @import url(./mobile-style.css);
-@import url(./pg-home-style.css);
 
 :root {
     --cor-principal: #121212;
