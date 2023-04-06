@@ -35,6 +35,16 @@ body {
 }
 
 /*---------------- LAYOUT ----------------*/
+/* Mostrar / Ocultar */
+#ocultar{
+    display: none;
+}
+
+#mostrar{
+    display: block;
+}
+
+
 /* Principal */
 div#div-principal {
 display: flex;
@@ -47,7 +57,6 @@ color: var(--fonte-extra2);
 div.div-cabecalho{
     position: fixed;
     left: 0px;
-    display: flex;
     flex-direction: column;
     height: 100%;
     background-color: var(--cor-principal);
@@ -60,6 +69,7 @@ div.div-cabecalho{
 @media only screen and (min-width: 769px) {
     /* Cabeçalho Responsivo */
     div.div-cabecalho{
+        display: flex;
         width: 70px;
         align-items: center;
         padding: 10px;
