@@ -7,11 +7,10 @@ div.div-conteudo{
 
 /*---------- CABEÇALHO MOBILE -------------*/
      div.div-cabecalho {
-        display: none !important;
-        width: 100% !important;
-        align-items: start !important;
-        padding: 30px !important;
-        box-shadow: none !important;
+        width: 100%;
+        align-items: start;
+        padding: 30px;
+        box-shadow: none;
         overflow: scroll;
     }
     
