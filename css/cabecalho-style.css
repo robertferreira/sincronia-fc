@@ -50,8 +50,8 @@ div.botao-abrir-menu-cabecalho{
 
 /*---------- CABEÇALHO EXPANDIDO -------------*/
 @media only screen and (min-width: 769px) {
-div.cabecalho-expandido {
-    width: 150px !important;
+div#cabecalho-expandido {
+    width: 150px;
 }
 
 /* Logo Expandido */

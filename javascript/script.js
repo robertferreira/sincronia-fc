@@ -6,7 +6,7 @@ const expandirCabecalho = function () {
     // EXPANDIR CABEÇALHO AO PASSAR O MOUSE
     cabecalho.addEventListener("mouseover", () => {
       // Expandir cabeçalho e logo
-      cabecalho.classList.add('cabecalho-expandido');
+      cabecalho.setAttribute("id", "cabecalho-expandido");
       logo_cabecalho.setAttribute("id", "logo-cabecalho-expandido");
 
       // Expandir nome das opções
@@ -18,7 +18,7 @@ const expandirCabecalho = function () {
     // RETRAIR CABEÇALHO AO TIRAR O MOUSE
     cabecalho.addEventListener("mouseout", () => {
       // Retrair cabeçalho e logo
-      cabecalho.classList.remove('cabecalho-expandido');
+      cabecalho.removeAttribute("id", "cabecalho-expandido");
       logo_cabecalho.removeAttribute("id", "logo-cabecalho-expandido");
 
       // Retrair nome das opções
