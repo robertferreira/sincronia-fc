@@ -1,8 +1,8 @@
 @media only screen and (max-width: 768px) {
 /*---------- CONTEÚDO MOBILE -------------*/
 div.div-conteudo{
-    margin: 30px !important;
-    padding: 15px !important;
+    margin: 30px;
+    padding: 15px;
 }
 
 /*---------- CABEÇALHO MOBILE -------------*/
