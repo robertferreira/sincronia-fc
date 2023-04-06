@@ -66,6 +66,11 @@ div.div-cabecalho{
         box-shadow: 0px 0px 15px var(--cor-principal);
     }
 
+    div#botao-fechar-menu-cabecalho{
+        display: none;
+        animation: animate-div 0.9s;
+    }
+
     /* Conteúdo Responsivo */
     div.div-conteudo{
         margin: 20px 20px 20px 120px;

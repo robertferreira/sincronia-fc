@@ -27,8 +27,14 @@ div.div-conteudo{
     }
     
     /* Botão Fechar Cabeçalho Mobile */
-    div.div-cabecalho{
+    div#botao-fechar-menu-cabecalho{
         display: block;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        color: var(--cor-secundaria);
+        padding: 7px 14px;
+        font-size: 1.8em;
     }
     
     /* Logo Mobile */
