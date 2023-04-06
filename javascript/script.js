@@ -1,3 +1,4 @@
+// FUNÇÃO EXPANDIR CABEÇALHO AO PASSAR O MOUSE
 const expandirCabecalho = function () {
     let cabecalho = document.getElementById('cabecalho');
     let logo_cabecalho = document.getElementById('logo-cabecalho');
@@ -31,3 +32,8 @@ const expandirCabecalho = function () {
     //INSERIR NOMES
 }
 expandirCabecalho();
+
+// FUNÇÃO (FECHAR / ABRIR) CABEÇALHO MOBILE
+const fecharCabecalhoMobile = function () {
+
+}
