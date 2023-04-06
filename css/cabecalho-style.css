@@ -60,8 +60,8 @@ div#logo-cabecalho-expandido {
 }
 
 /* Menu Expandido */
-.menu-cabecalho-opcao-expandido {
-    display: block !important;
+#menu-cabecalho-opcao-expandido {
+    display: block;
     margin-left: 10px;
     animation: animate-div 0.9s;
 }

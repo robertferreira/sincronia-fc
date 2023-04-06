@@ -11,7 +11,7 @@ const expandirCabecalho = function () {
 
       // Expandir nome das opções
       for (let i = 0; i < opcao_cabecalho.length; i++) {
-        opcao_cabecalho.item(i).classList.add("menu-cabecalho-opcao-expandido");
+        opcao_cabecalho.item(i).setAttribute("id","menu-cabecalho-opcao-expandido");
       }
     })
 
@@ -23,7 +23,7 @@ const expandirCabecalho = function () {
 
       // Retrair nome das opções
       for (let i = 0; i < opcao_cabecalho.length; i++) {
-        opcao_cabecalho.item(i).classList.remove("menu-cabecalho-opcao-expandido");
+        opcao_cabecalho.item(i).removeAttribute("id","menu-cabecalho-opcao-expandido");
       }
 
     })
