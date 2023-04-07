@@ -37,7 +37,8 @@ const abrirCabecalhoMobile = function () {
   let cabecalho = document.getElementById('cabecalho');
 
   botao_abrir_cabecalho.addEventListener("click", () => {
-    cabecalho.setAttribute("id", "mostrar");
+    cabecalho.classList.add("mostrar");
   })
+
 }
 abrirCabecalhoMobile();

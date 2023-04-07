@@ -36,16 +36,19 @@ body {
 
 /*---------------- LAYOUT ----------------*/
 /* Mostrar - Ocultar */
-#ocultar{
-    display: none;
+.ocultar{
+    display: none !important;
     animation: animate-div 0.2s;
 }
 
-#mostrar{
-    display: block;
+.mostrar{
+    display: block !important;
     animation: animate-div 0.2s;
 }
 
+#teste{
+    background-color: red !important;
+}
 
 /* Principal */
 div#div-principal {
