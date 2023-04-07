@@ -4,7 +4,6 @@ const expandirCabecalho = function () {
     let logo_cabecalho = document.getElementById('logo-cabecalho');
     let opcao_cabecalho = document.getElementsByClassName('menu-cabecalho-opcao');
 
-    // EXPANDIR CABEÇALHO AO PASSAR O MOUSE
     cabecalho.addEventListener("mouseover", () => {
       // Expandir cabeçalho e logo
       cabecalho.setAttribute("id", "cabecalho-expandido");
@@ -16,7 +15,6 @@ const expandirCabecalho = function () {
       }
     })
 
-    // RETRAIR CABEÇALHO AO TIRAR O MOUSE
     cabecalho.addEventListener("mouseout", () => {
       // Retrair cabeçalho e logo
       cabecalho.removeAttribute("id", "cabecalho-expandido");
@@ -34,6 +32,12 @@ const expandirCabecalho = function () {
 expandirCabecalho();
 
 // FUNÇÃO (FECHAR / ABRIR) CABEÇALHO MOBILE
-const fecharCabecalhoMobile = function () {
+const abrirCabecalhoMobile = function () {
+  let botao_abrir_cabecalho = document.getElementById('botao-abrir-menu-cabecalho');
+  let cabecalho = document.getElementById('cabecalho');
 
+  botao_abrir_cabecalho.addEventListener("click", () => {
+    cabecalho.setAttribute("id", "mostrar");
+  })
 }
+abrirCabecalhoMobile();

@@ -35,13 +35,15 @@ body {
 }
 
 /*---------------- LAYOUT ----------------*/
-/* Mostrar / Ocultar */
+/* Mostrar - Ocultar */
 #ocultar{
     display: none;
+    animation: animate-div 0.2s;
 }
 
 #mostrar{
     display: block;
+    animation: animate-div 0.2s;
 }
 
 
@@ -77,8 +79,11 @@ div.div-cabecalho{
     }
 
     div#botao-fechar-menu-cabecalho{
+        display: none;     
+    }
+
+    div#botao-abrir-menu-cabecalho{
         display: none;
-        animation: animate-div 0.9s;
     }
 
     /* Conteúdo Responsivo */
