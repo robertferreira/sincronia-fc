@@ -24,21 +24,21 @@ const expandirCabecalho = function () {
       for (let i = 0; i < opcao_cabecalho.length; i++) {
         opcao_cabecalho.item(i).removeAttribute("id","menu-cabecalho-opcao-expandido");
       }
-
     })
-
-    //INSERIR NOMES
 }
 expandirCabecalho();
 
-// FUNÇÃO (FECHAR / ABRIR) CABEÇALHO MOBILE
-const abrirCabecalhoMobile = function () {
+// FUNÇÃO ABRIR E FECHAR CABEÇALHO MOBILE
+const abrirFecharCabecalhoMobile = function () {
   let botao_abrir_cabecalho = document.getElementById('botao-abrir-menu-cabecalho');
+  let botao_fechar_menu_cabecalho = document.getElementById('botao-fechar-menu-cabecalho');
   let cabecalho = document.getElementById('cabecalho');
 
   botao_abrir_cabecalho.addEventListener("click", () => {
     cabecalho.classList.add("mostrar");
   })
-
+  botao_fechar_menu_cabecalho.addEventListener("click", () => {
+    cabecalho.classList.remove("mostrar");
+  })
 }
-abrirCabecalhoMobile();
+abrirFecharCabecalhoMobile();
