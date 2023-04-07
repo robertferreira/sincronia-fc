@@ -25,7 +25,7 @@ div.div-cabecalho div.menu-cabecalho ul li{
 }
 
 div.div-cabecalho div.menu-cabecalho ul li a{
-    color: var(--fonte-extra2);
+    color: var(--fonte-standard-1);
     transition: 0.3s;
     display: flex;
     font-weight: 300;
@@ -36,7 +36,7 @@ div.div-cabecalho div.menu-cabecalho ul li a:hover{
 }
 
 div.div-cabecalho div.menu-cabecalho ul li a i{
-    color: var(--fonte-extra3);
+    color: var(--fonte-standard-5);
 }
 
 div.div-cabecalho div.menu-cabecalho ul li a .menu-cabecalho-opcao {

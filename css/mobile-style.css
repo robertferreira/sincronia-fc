@@ -21,8 +21,8 @@ div.div-conteudo{
         position: fixed;
         left: 0px;
         top: 0px;
-        background-color: var(--cor-secundaria);
-        color: var(--fonte-extra1);
+        background-color: var(--cor-standard-3);
+        color: var(--fonte-standard-2);
         padding: 7px 14px;
         font-size: 1.5em;
     }
@@ -33,7 +33,7 @@ div.div-conteudo{
         position: fixed;
         right: 0px;
         top: 0px;
-        color: var(--cor-secundaria);
+        color: var(--cor-standard-3);
         padding: 7px 14px;
         font-size: 1.8em;
     }
