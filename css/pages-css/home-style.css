@@ -3,7 +3,7 @@
     padding: 15px;
 }
 
-.home-1, .home-2{
+.home{
     display: flex;
     margin-bottom: 50px;
     align-items: flex-start;
@@ -21,17 +21,24 @@
 }
 
 /* GERAL - Home 2 */
+.home-2 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .home-2-card{
-    width: 25%;
+    width: 30%;
+    height: 70px;
     text-align: center;
     background-color: var(--cor-standard-2);
-    margin: 15px;
+    box-shadow: 0px 0px 5px var(--cor-standard-4);
+    margin: 15px 0px;
     border-radius: 15px;
 }
 
 @media only screen and (max-width: 768px) {
 /* MOBILE */  
-    .home-1, .home-2{
+    .home{
         align-items: center;
         flex-direction: column;
     }
