@@ -38,6 +38,7 @@ p {
 
 h1 {
     margin-bottom: 10px;
+    color: var(--fonte-standard-5);
 }
 
 /*---------------- LAYOUT ----------------*/
