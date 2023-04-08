@@ -28,13 +28,18 @@
     list-style: none;
 }
 
+body {
+    background-color: var(--cor-standard-1);
+}
+
 p {
     text-align: justify;
 }
 
-body {
-    background-color: var(--cor-standard-1);
+h1 {
+    margin-bottom: 10px;
 }
+
 /*---------------- LAYOUT ----------------*/
 /* Mostrar - Ocultar */
 .ocultar{
