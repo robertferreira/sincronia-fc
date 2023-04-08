@@ -4,6 +4,7 @@
 /* Import CSS */
 @import url(./cabecalho-style.css);
 @import url(./mobile-style.css);
+@import url(./pages-css/home-style.css);
 
 :root {
     --cor-standard-1: #071a42;
@@ -34,7 +35,6 @@ p {
 body {
     background-color: var(--cor-standard-1);
 }
-
 /*---------------- LAYOUT ----------------*/
 /* Mostrar - Ocultar */
 .ocultar{
