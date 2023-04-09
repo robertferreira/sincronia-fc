@@ -23,7 +23,7 @@
 /* GERAL - Home 2 */
 .home-2 {
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .home-2-card{
@@ -32,7 +32,7 @@
     text-align: center;
     background-color: var(--cor-standard-2);
     box-shadow: 0px 0px 5px var(--cor-standard-4);
-    margin: 15px 0px;
+    margin: 15px;
     border-radius: 15px;
 }
 
