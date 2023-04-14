@@ -77,9 +77,12 @@
     width: 20%;
 }
 
+
 .home-3-coluna i{
+    display: inline;
     color: var(--fonte-standard-5);
     margin-right: 5px;
+    padding: 2px;
     width: 20px;
 }
 
