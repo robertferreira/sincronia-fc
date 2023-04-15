@@ -108,9 +108,10 @@
     .home-1-img{
         width: 80%;
     }
-
+/* MOBILE - Home 2 */
     .home-2-card{
         width: 100%;
+        margin: 15px 0px;
     }
     
 }
