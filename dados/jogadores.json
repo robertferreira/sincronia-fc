@@ -6,7 +6,7 @@
         "apelido":"Padelli",
         "posicao":"PD",
         "camisa":"10",
-        "perna_boa":"D"
+        "perna_boa":"Direita"
     },
     {
         "id":"M9",
@@ -15,7 +15,7 @@
         "apelido":"Marquisio",
         "posicao":"ATA",
         "camisa":"9",
-        "perna_boa":"E"
+        "perna_boa":"Esquerda"
     },
     {
         "id":"D89",
@@ -24,7 +24,7 @@
         "apelido":"Dentinho",
         "posicao":"PE",
         "camisa":"89",
-        "perna_boa":"D"
+        "perna_boa":"Direita"
     },
     {
         "id":"P7",
@@ -33,6 +33,6 @@
         "apelido":"Pereira",
         "posicao":"MEI",
         "camisa":"7",
-        "perna_boa":"E"
+        "perna_boa":"Esquerda"
     }
 ]
