@@ -1,0 +1,38 @@
+[
+    {
+        "id":"P10",
+        "nome":"Robert Ferreira",
+        "gamertag":"DarkDidi10",
+        "apelido":"Padelli",
+        "posicao":"PD",
+        "camisa":"10",
+        "perna_boa":"D"
+    },
+    {
+        "id":"M9",
+        "nome":"Marcelo Santana",
+        "gamertag":"Drigomax",
+        "apelido":"Marquisio",
+        "posicao":"ATA",
+        "camisa":"9",
+        "perna_boa":"E"
+    },
+    {
+        "id":"D89",
+        "nome":"Guilherme Reis",
+        "gamertag":"PhdM1st3r",
+        "apelido":"Dentinho",
+        "posicao":"PE",
+        "camisa":"89",
+        "perna_boa":"D"
+    },
+    {
+        "id":"P7",
+        "nome":"Getulio Peixe",
+        "gamertag":"Mineirinho02",
+        "apelido":"Pereira",
+        "posicao":"MEI",
+        "camisa":"7",
+        "perna_boa":"E"
+    }
+]
