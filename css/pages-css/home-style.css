@@ -44,14 +44,15 @@
     justify-content: center;
     text-align: center;
     color: var(--fonte-standard-1);
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: 500;
     text-transform: uppercase;
     transition: 0.5s;
 }
 
 .home-2-card a i{
-   margin-bottom: 2px;
+   font-size: 1.2em;
+   margin-bottom: 4px;
    color: var(--fonte-standard-3);
 }
 
