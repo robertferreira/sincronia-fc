@@ -28,11 +28,20 @@
     },
     {
         "id":"P7",
-        "nome":"Getúlio Peixe",
+        "nome":"Getúlio Duarte",
         "gamertag":"Mineirinho02",
         "apelido":"Pereira",
         "posicao":"MEI",
         "camisa":"7",
         "perna_boa":"Esquerda"
+    },
+    {
+        "id":"O8",
+        "nome":"Otavio Duarte",
+        "gamertag":"PeixeBeta01",
+        "apelido":"Falso 9",
+        "posicao":"MEI",
+        "camisa":"8",
+        "perna_boa":"Direita"
     }
 ]
