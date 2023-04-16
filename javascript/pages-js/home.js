@@ -6,6 +6,7 @@ const dadosHome3Coluna = async function () {
     let ul_games = document.getElementById("home-3-games");
     let icon_membros ='<i class="fa-solid fa-circle-user"></i>';
     let icon_gamertag ='<i class="fa-brands fa-xbox"></i>';
+    let icon_games = '<i class="fa-solid fa-gamepad"></i>';
 
     // DADOS JSON
     const dados_jogadores = await fetch("./dados/jogadores.json");
@@ -23,7 +24,15 @@ const dadosHome3Coluna = async function () {
         let li_gamertag = document.createElement('li');
         li_gamertag.innerHTML = icon_gamertag + element.gamertag;
         ul_gamertag.appendChild(li_gamertag);
+    })
+    
+    games.forEach(element => {
+        // INFORMAÇÕES DE GAMES
+        let li_games = document.createElement('li');
+        li_games.innerHTML = icon_games + element.nome_jogo;
+        ul_games.appendChild(li_games);
     });
+    ;
 
 
 
