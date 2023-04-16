@@ -1,8 +1,14 @@
 const dadosHome3Coluna = async function(){
 
-const res = await fetch("./dados/jogadores.json");
-const data = await res.json();
-console.log(data);
+const dados = await fetch("./dados/jogadores.json");
+const jogadores = await dados.json();
+
+console.log(jogadores);
+
+jogadores.forEach(element => {
+    console.log(element.nome);
+});
 
 }
 dadosHome3Coluna();
+
