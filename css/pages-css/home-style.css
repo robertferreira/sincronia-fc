@@ -43,6 +43,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    width: 100%;
     color: var(--fonte-standard-1);
     font-size: 1em;
     font-weight: 500;
