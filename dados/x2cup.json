@@ -1,14 +1,43 @@
 [
     {
-        "fifa":"FIFA 19"
-    },
-    {
-        "fifa":"FIFA 20"
-    },
-    {
-        "fifa":"FIFA 21"
-    },
-    {
-        "fifa":"FIFA 22"
+        "fifa":"FIFA 22",
+        "resultados":[
+            {
+                "dupla-1":{
+                    "membro-1":"Padelli",
+                    "membro-2":"Pereira",
+                    "vitorias":"10"
+                },
+                "dupla-2":{
+                    "membro-1":"Marquisio",
+                    "membro-2":"Dentinho",
+                    "vitorias":"4"
+                }
+            },
+            {
+                "dupla-1":{
+                    "membro-1":"Padelli",
+                    "membro-2":"Marquisio",
+                    "vitorias":"4"
+                },
+                "dupla-2":{
+                    "membro-1":"Getulio",
+                    "membro-2":"Dentinho",
+                    "vitorias":"1"
+                }
+            },
+            {
+                "dupla-1":{
+                    "membro-1":"Padelli",
+                    "membro-2":"Dentinho",
+                    "vitorias":"0"
+                },
+                "dupla-2":{
+                    "membro-1":"Marquisio",
+                    "membro-2":"Getulio",
+                    "vitorias":"0"
+                }
+            }
+        ]
     }
 ]
