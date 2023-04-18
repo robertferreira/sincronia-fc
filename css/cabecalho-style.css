@@ -15,6 +15,10 @@ div.div-cabecalho div.logo-cabecalho {
     transition: 0.7s;
 }
 
+div.logo-cabecalho img{
+    width: 100%;
+}
+
 /* Menu de Opções */
 div.div-cabecalho div.menu-cabecalho {
     flex: 5;
