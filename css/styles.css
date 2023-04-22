@@ -5,6 +5,7 @@
 @import url(./cabecalho-style.css);
 @import url(./mobile-style.css);
 @import url(./pages-css/home-style.css);
+@import url(./pages-css/X2-style.css);
 
 :root {
     --cor-standard-1: #071a42;
