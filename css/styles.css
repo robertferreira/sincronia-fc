@@ -49,6 +49,12 @@ h1, h2 {
     padding: 15px;
 }
 
+.conteudo{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
 /* Mostrar - Ocultar */
 .ocultar{
     display: none !important;
