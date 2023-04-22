@@ -44,6 +44,11 @@ h1, h2 {
 }
 
 /*---------------- LAYOUT ----------------*/
+/* Geral */
+.pad15 {
+    padding: 15px;
+}
+
 /* Mostrar - Ocultar */
 .ocultar{
     display: none !important;
