@@ -14,7 +14,7 @@
 
 .x2-2-card-title {
     font-size: 1.5em;
-    padding: 10px;
+    padding: 5px;
     color: var(--fonte-standard-1);
 }
 
@@ -33,26 +33,53 @@
     display: flex;
     align-items: center;
     width: 33%;
-    margin: 10px;
+    margin: 5px;
+    padding: 0px 5px;
     height: 150px;
-    background-color: #b3b3b3;
-    color: black;
+    color: var(--fonte-standard-1);
     border-radius: 15px;
+    border: 1px solid var(--cor-standard-5);
+}
+
+.x2-2-result-scoreboard{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    color: var(--fonte-standard-3);
+    background-color: var(--cor-standard-5);
+    font-size: 1.5em;
+    font-weight: 700;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .x2-2-result-final{
-    width: 30%;
-    font-size: 2.1em;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex: 1;
+    height: 100%;
+    border-right: 1px solid var(--cor-standard-1);
 }
 
 .x2-2-result-players{
     display: flex;
     flex-direction: column;
-    width: 35%;
+    margin: 0px 10px;
+    flex: 1;
 }
 
-.x2-2-result-players span{
+.x2-x2-result-player{
+    display: flex;
+    align-items: center;
+}
+
+.x2-x2-result-player img{
+    width: 35px;
+    margin: 0px 5px;
+}
+
+.x2-x2-result-player span{
     margin: 10px 0px;
     font-size: 1.3em;
 }
