@@ -37,7 +37,7 @@
     padding: 0px 5px;
     height: 150px;
     color: var(--fonte-standard-1);
-    border-radius: 0px;
+    border-radius: 20px;
     border: 1px solid var(--cor-standard-4);
 }
 
@@ -85,12 +85,19 @@
 }
 
 @media only screen and (max-width: 768px) {
-/* MOBILE */ 
+/* MOBILE */
+.x2-2-card{
+    margin: 0px;
+}
+
 .x2-2-card-results{
     flex-direction: column;
+    align-items: center;
 }
 
 .x2-2-result{
     width: 100%;
+    margin: 10px 0px;
+    padding: 0px;
 }
 }
