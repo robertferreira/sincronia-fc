@@ -46,10 +46,6 @@ h1, h2 {
 
 /*---------------- LAYOUT ----------------*/
 /* Geral */
-.pad15 {
-    padding: 15px;
-}
-
 .conteudo{
     display: flex;
     margin-bottom: 20px;
@@ -89,6 +85,11 @@ div.div-cabecalho{
 }
 
 @media only screen and (min-width: 769px) {
+
+    .pad15 {
+        padding: 15px;
+    }
+
     /* Cabeçalho Responsivo */
     div.div-cabecalho{
         display: flex;
