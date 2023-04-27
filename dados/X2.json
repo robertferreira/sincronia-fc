@@ -3,38 +3,38 @@
         "fifa":"FIFA 22",
         "resultados":[
             {
-                "dupla-1":{
-                    "membro-1":"Padelli",
-                    "membro-2":"Pereira",
+                "dupla_1":{
+                    "membro_1":"Padelli",
+                    "membro_2":"Pereira",
                     "vitorias":"10"
                 },
-                "dupla-2":{
-                    "membro-1":"Marquisio",
-                    "membro-2":"Dentinho",
+                "dupla_2":{
+                    "membro_1":"Marquisio",
+                    "membro_2":"Dentinho",
                     "vitorias":"4"
                 }
             },
             {
-                "dupla-1":{
-                    "membro-1":"Padelli",
-                    "membro-2":"Marquisio",
+                "dupla_1":{
+                    "membro_1":"Padelli",
+                    "membro_2":"Marquisio",
                     "vitorias":"4"
                 },
-                "dupla-2":{
-                    "membro-1":"Getulio",
-                    "membro-2":"Dentinho",
+                "dupla_2":{
+                    "membro_1":"Getulio",
+                    "membro_2":"Dentinho",
                     "vitorias":"1"
                 }
             },
             {
-                "dupla-1":{
-                    "membro-1":"Padelli",
-                    "membro-2":"Dentinho",
+                "dupla_1":{
+                    "membro_1":"Padelli",
+                    "membro_2":"Dentinho",
                     "vitorias":"0"
                 },
-                "dupla-2":{
-                    "membro-1":"Marquisio",
-                    "membro-2":"Getulio",
+                "dupla_2":{
+                    "membro_1":"Marquisio",
+                    "membro_2":"Getulio",
                     "vitorias":"0"
                 }
             }
