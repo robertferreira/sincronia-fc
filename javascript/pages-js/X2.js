@@ -35,6 +35,8 @@ const dadosX2 = async function () {
 
     //CONTEÚDO
     div_card_title_h3.innerHTML += bola_icon + element.fifa;
+    div_result_final1.innerText = 10;
+    div_result_final2.innerText = 10;
 
 
     //Card
