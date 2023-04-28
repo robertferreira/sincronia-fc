@@ -5,36 +5,48 @@
             {
                 "dupla_1":{
                     "membro_1":"Padelli",
+                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
                     "membro_2":"Pereira",
+                    "membro_2_time_img":"../imagens/times/cruzeiro.png",
                     "vitorias":"10"
                 },
                 "dupla_2":{
                     "membro_1":"Marquisio",
+                    "membro_1_time_img":"../imagens/times/bahia.png",
                     "membro_2":"Dentinho",
+                    "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"4"
                 }
             },
             {
                 "dupla_1":{
                     "membro_1":"Padelli",
+                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
                     "membro_2":"Marquisio",
+                    "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"4"
                 },
                 "dupla_2":{
-                    "membro_1":"Getulio",
+                    "membro_1":"Pereira",
+                    "membro_1_time_img":"../imagens/times/cruzeiro.png",
                     "membro_2":"Dentinho",
+                    "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"1"
                 }
             },
             {
                 "dupla_1":{
                     "membro_1":"Padelli",
+                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
                     "membro_2":"Dentinho",
+                    "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
                     "membro_1":"Marquisio",
-                    "membro_2":"Getulio",
+                    "membro_1_time_img":"../imagens/times/bahia.png",
+                    "membro_2":"Pereira",
+                    "membro_2_time_img":"../imagens/times/cruzeiro.png",
                     "vitorias":"0"
                 }
             }
