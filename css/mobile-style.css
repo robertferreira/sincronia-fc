@@ -1,6 +1,7 @@
 @media only screen and (max-width: 768px) {
 /*---------- CONTEÚDO MOBILE -------------*/
 div.div-conteudo{
+    width: 100%;
     margin: 30px;
     padding: 15px;
 }
