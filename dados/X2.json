@@ -4,48 +4,48 @@
         "resultados":[
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Pereira",
+                    "membro_2":"P7",
                     "membro_2_time_img":"../imagens/times/cruzeiro.png",
                     "vitorias":"10"
                 },
                 "dupla_2":{
-                    "membro_1":"Marquisio",
+                    "membro_1":"M9",
                     "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 }
             },
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Marquisio",
+                    "membro_2":"M9",
                     "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
+                    "vitorias":"4"
                 },
                 "dupla_2":{
-                    "membro_1":"Pereira",
+                    "membro_1":"P7",
                     "membro_1_time_img":"../imagens/times/cruzeiro.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"1"
                 }
             },
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Marquisio",
+                    "membro_1":"M9",
                     "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"Pereira",
+                    "membro_2":"P7",
                     "membro_2_time_img":"../imagens/times/cruzeiro.png",
                     "vitorias":"0"
                 }
@@ -57,48 +57,48 @@
         "resultados":[
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Pereira",
+                    "membro_2":"P7",
                     "membro_2_time_img":"../imagens/times/cruzeiro.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Marquisio",
+                    "membro_1":"M9",
                     "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 }
             },
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Marquisio",
+                    "membro_2":"M9",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Pereira",
+                    "membro_1":"P7",
                     "membro_1_time_img":"../imagens/times/cruzeiro.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 }
             },
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Marquisio",
+                    "membro_1":"M9",
                     "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"Pereira",
+                    "membro_2":"P7",
                     "membro_2_time_img":"../imagens/times/cruzeiro.png",
                     "vitorias":"0"
                 }
@@ -110,48 +110,48 @@
         "resultados":[
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Pereira",
+                    "membro_2":"P7",
                     "membro_2_time_img":"../imagens/times/cruzeiro.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Marquisio",
+                    "membro_1":"M9",
                     "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 }
             },
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Marquisio",
+                    "membro_2":"M9",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Pereira",
+                    "membro_1":"P7",
                     "membro_1_time_img":"../imagens/times/cruzeiro.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 }
             },
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Marquisio",
+                    "membro_1":"M9",
                     "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"Pereira",
+                    "membro_2":"P7",
                     "membro_2_time_img":"../imagens/times/cruzeiro.png",
                     "vitorias":"0"
                 }
@@ -163,48 +163,48 @@
         "resultados":[
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Pereira",
+                    "membro_2":"P7",
                     "membro_2_time_img":"../imagens/times/cruzeiro.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Marquisio",
+                    "membro_1":"M9",
                     "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 }
             },
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Marquisio",
+                    "membro_2":"M9",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Pereira",
+                    "membro_1":"P7",
                     "membro_1_time_img":"../imagens/times/cruzeiro.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 }
             },
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Marquisio",
+                    "membro_1":"M9",
                     "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"Pereira",
+                    "membro_2":"P7",
                     "membro_2_time_img":"../imagens/times/cruzeiro.png",
                     "vitorias":"0"
                 }
@@ -216,48 +216,48 @@
         "resultados":[
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Pereira",
+                    "membro_2":"P7",
                     "membro_2_time_img":"../imagens/times/cruzeiro.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Marquisio",
+                    "membro_1":"M9",
                     "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 }
             },
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Marquisio",
+                    "membro_2":"M9",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Pereira",
+                    "membro_1":"P7",
                     "membro_1_time_img":"../imagens/times/cruzeiro.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 }
             },
             {
                 "dupla_1":{
-                    "membro_1":"Padelli",
+                    "membro_1":"P10",
                     "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"Dentinho",
+                    "membro_2":"D89",
                     "membro_2_time_img":"../imagens/times/bahia.png",
                     "vitorias":"0"
                 },
                 "dupla_2":{
-                    "membro_1":"Marquisio",
+                    "membro_1":"M9",
                     "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"Pereira",
+                    "membro_2":"P7",
                     "membro_2_time_img":"../imagens/times/cruzeiro.png",
                     "vitorias":"0"
                 }
