@@ -28,6 +28,10 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    margin: 5px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid var(--cor-standard-5);
+    border-bottom: 1px solid var(--cor-standard-5);
 }
 
 .x2-2-result{
