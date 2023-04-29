@@ -37,9 +37,9 @@
     margin: 5px;
     padding: 0px 5px;
     height: 150px;
-    background-color: var(--cor-standard-2);
+    background: linear-gradient(350deg, var(--cor-standard-2) 50%, #363636 100%);
     color: var(--fonte-standard-1);
-    box-shadow: 0px 0px 35px -20px var(--cor-standard-5);
+    box-shadow: 0px 0px 35px -25px var(--cor-standard-5);
 }
 
 .x2-2-result-scoreboard{
