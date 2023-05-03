@@ -7,7 +7,7 @@ const dadosX2 = async function () {
 
    resultados.forEach(element => {
       //Create Card
-      var div_card = document.createElement('div');
+      var div_card = document.createElement('div');W
       div_card.classList.add('x2-2-card');
       //Create Titulo
       var div_card_title = document.createElement('div');
