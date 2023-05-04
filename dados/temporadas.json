@@ -10,5 +10,53 @@
         "vitorias":150,
         "empates":49,
         "derrotas":100
+    },
+    {
+        "fifa":"FIFA 21",
+        "temporadas":0,
+        "titulos_liga":0,
+        "titulos_copa":0,
+        "acessos":0,
+        "rebaixamentos":0,
+        "jogos":0,
+        "vitorias":0,
+        "empates":0,
+        "derrotas":0
+    },
+    {
+        "fifa":"FIFA 20",
+        "temporadas":0,
+        "titulos_liga":0,
+        "titulos_copa":0,
+        "acessos":0,
+        "rebaixamentos":0,
+        "jogos":0,
+        "vitorias":0,
+        "empates":0,
+        "derrotas":0
+    },
+    {
+        "fifa":"FIFA 19",
+        "temporadas":0,
+        "titulos_liga":0,
+        "titulos_copa":0,
+        "acessos":0,
+        "rebaixamentos":0,
+        "jogos":0,
+        "vitorias":0,
+        "empates":0,
+        "derrotas":0
+    },
+    {
+        "fifa":"FIFA 18",
+        "temporadas":0,
+        "titulos_liga":0,
+        "titulos_copa":0,
+        "acessos":0,
+        "rebaixamentos":0,
+        "jogos":0,
+        "vitorias":0,
+        "empates":0,
+        "derrotas":0
     }
 ]
