@@ -47,8 +47,10 @@
     display: flex;
     flex: 1;
     height: 100%;
-    color: var(--fonte-standard-2);
-    background-color: var(--cor-standard-5);
+    color: var(--fonte-standard-1);
+    background-color: var(--cor-standard-2);
+    border-right: 1px solid var(--cor-standard-1);
+    border-left: 1px solid var(--cor-standard-1);
     font-size: 1.4em;
     font-weight: 700;
     justify-content: space-around;
