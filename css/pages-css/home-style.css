@@ -21,9 +21,9 @@
     justify-content: center;
     width: 29%;
     height: 80px;
-    background: linear-gradient(348deg, var(--cor-standard-2) 50%, #363636 100%);
+    background: linear-gradient(348deg, var(--cor-standard-2) 50%, #212121 100%);
     margin: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     transition: 0.5s;
 }
 
