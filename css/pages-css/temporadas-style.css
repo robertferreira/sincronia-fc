@@ -4,7 +4,8 @@
 
 .temporadas-2{
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
 }
 
