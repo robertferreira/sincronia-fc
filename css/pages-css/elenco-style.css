@@ -1,0 +1,71 @@
+.elenco-1 h1{
+    width: 100%;
+}
+
+.elenco-2{
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.elenco-2-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 30%;
+    padding: 15px;
+    margin: 15px;
+    background-color: var(--cor-standard-2);
+    color: var(--fonte-standard-1);
+    box-shadow: 0px 0px 35px -25px var(--cor-standard-5);
+}
+
+.elenco-2-card-title {
+    font-size: 1.5em;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: var(--fonte-standard-1);
+    border-bottom: 1px solid var(--cor-standard-5);
+}
+
+.elenco-2-card-title i{
+    color: var(--fonte-standard-5);
+    margin-right: 5px;
+}
+
+.elenco-2-card-statistics table{
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.elenco-2-card-statistics tr{
+    height: 30px;
+}
+
+.elenco-2-card-statistics td{
+    width: 70%;
+    text-align: left;
+}
+
+.elenco-2-card-statistics td h3{
+   color: var(--fonte-standard-5);
+   margin-bottom: 5px;
+}
+
+.elenco-2-card-statistics td i{
+    color: var(--fonte-standard-5);
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .elenco-2{
+        flex-direction: column;
+    }
+    
+    .elenco-2-card{
+        width: 100%;
+        margin: 0px 0px 40px 0px;
+    }
+}
