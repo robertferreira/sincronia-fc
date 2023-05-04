@@ -64,23 +64,23 @@ const dadosTemporadas = async function () {
         //Conteúdo Card Statistics Table1
         card_statistics_table1_tr1_td1_h3.innerText = 'TEMPORADAS:';
         card_statistics_table1_tr1_td2_h3.innerText = element.temporadas;
-        card_statistics_table1_tr2_td1.innerText = 'Teste';
-        card_statistics_table1_tr2_td2.innerText = 'Teste';
-        card_statistics_table1_tr3_td1.innerText = 'Teste';
-        card_statistics_table1_tr3_td2.innerText = 'Teste';
-        card_statistics_table1_tr4_td1.innerText = 'Teste';
-        card_statistics_table1_tr4_td2.innerText = 'Teste';
-        card_statistics_table1_tr5_td1.innerText = 'Teste';
-        card_statistics_table1_tr5_td2.innerText = 'Teste';
+        card_statistics_table1_tr2_td1.innerHTML = icon_taca + 'Titulos de Liga:';
+        card_statistics_table1_tr2_td2.innerText = element.titulos_liga;
+        card_statistics_table1_tr3_td1.innerHTML = icon_taca + 'Titulos de Copa:';
+        card_statistics_table1_tr3_td2.innerText = element.titulos_copa;
+        card_statistics_table1_tr4_td1.innerHTML = icon_acessos + 'Acessos:';
+        card_statistics_table1_tr4_td2.innerText = element.acessos;
+        card_statistics_table1_tr5_td1.innerHTML = icon_rebaixamentos + 'Rebaixamentos:';
+        card_statistics_table1_tr5_td2.innerText = element.rebaixamentos;
         //Conteúdo Card Statistics Table2
         card_statistics_table2_tr1_td1_h3.innerText = 'JOGOS:';
         card_statistics_table2_tr1_td2_h3.innerText = element.jogos;
-        card_statistics_table2_tr2_td1.innerText = 'Teste';
-        card_statistics_table2_tr2_td2.innerText = 'Teste';
-        card_statistics_table2_tr3_td1.innerText = 'Teste';
-        card_statistics_table2_tr3_td2.innerText = 'Teste';
-        card_statistics_table2_tr4_td1.innerText = 'Teste';
-        card_statistics_table2_tr4_td2.innerText = 'Teste';
+        card_statistics_table2_tr2_td1.innerHTML = icon_vitorias + 'Vitórias:';
+        card_statistics_table2_tr2_td2.innerText = element.vitorias;
+        card_statistics_table2_tr3_td1.innerHTML = icon_empates + 'Empates:';
+        card_statistics_table2_tr3_td2.innerText = element.empates;
+        card_statistics_table2_tr4_td1.innerHTML = icon_derrotas + 'Derrotas:';
+        card_statistics_table2_tr4_td2.innerText = element.derrotas;
 
         //Add Card
         conteudo.append(card);
