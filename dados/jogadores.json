@@ -5,7 +5,7 @@
         "gamertag":"DarkDidi10",
         "apelido":"Padelli",
         "posicao":"PD",
-        "camisa":"10",
+        "numero":"10",
         "perna_boa":"Direita"
     },
     {
@@ -14,7 +14,7 @@
         "gamertag":"Drigomax",
         "apelido":"Marquisio",
         "posicao":"ATA",
-        "camisa":"9",
+        "numero":"9",
         "perna_boa":"Esquerda"
     },
     {
@@ -23,7 +23,7 @@
         "gamertag":"PhdM1st3r",
         "apelido":"Dentinho",
         "posicao":"PE",
-        "camisa":"89",
+        "numero":"89",
         "perna_boa":"Direita"
     },
     {
@@ -32,7 +32,7 @@
         "gamertag":"Mineirinho02",
         "apelido":"Pereira",
         "posicao":"MEI",
-        "camisa":"7",
+        "numero":"7",
         "perna_boa":"Esquerda"
     },
     {
@@ -41,7 +41,7 @@
         "gamertag":"PeixeBeta01",
         "apelido":"Falso 9",
         "posicao":"MEI",
-        "camisa":"8",
+        "numero":"8",
         "perna_boa":"Direita"
     }
 ]

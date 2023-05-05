@@ -29,11 +29,6 @@
     border-bottom: 1px solid var(--cor-standard-5);
 }
 
-.elenco-2-card-title i{
-    color: var(--fonte-standard-5);
-    margin-right: 5px;
-}
-
 .elenco-2-card-statistics table{
     width: 100%;
     margin: 15px 0px;
@@ -44,18 +39,8 @@
 }
 
 .elenco-2-card-statistics td{
-    width: 70%;
+    width: 20%;
     text-align: left;
-}
-
-.elenco-2-card-statistics td h3{
-   color: var(--fonte-standard-5);
-   margin-bottom: 5px;
-}
-
-.elenco-2-card-statistics td i{
-    color: var(--fonte-standard-5);
-    margin-right: 10px;
 }
 
 @media only screen and (max-width: 768px) {
