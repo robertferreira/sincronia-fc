@@ -29,6 +29,17 @@
     border-bottom: 1px solid var(--cor-standard-5);
 }
 
+.elenco-2-card-image{
+    text-align: center;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 15px;
+}
+
+.elenco-2-card-image img{
+    width: 100%;
+}
+
 .elenco-2-card-statistics table{
     width: 100%;
     margin: 15px 0px;
