@@ -15,7 +15,7 @@ const dadosTemporadas = async function () {
         card_title.classList.add('elenco-2-card-title');
         var card_title_h3 = document.createElement('h3');
         var card_title_img = document.createElement('img');
-        card_title_img.setAttribute('src','https://via.placeholder.com/50');
+        card_title_img.setAttribute('src',element.time);
         //Create Card Image
         var card_image = document.createElement('div');
         card_image.classList.add('elenco-2-card-image');
