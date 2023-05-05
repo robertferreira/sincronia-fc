@@ -14,6 +14,8 @@ const dadosTemporadas = async function () {
         var card_title = document.createElement('div');
         card_title.classList.add('elenco-2-card-title');
         var card_title_h3 = document.createElement('h3');
+        var card_title_img = document.createElement('img');
+        card_title_img.setAttribute('src','https://via.placeholder.com/50');
         //Create Card Image
         var card_image = document.createElement('div');
         card_image.classList.add('elenco-2-card-image');
@@ -60,7 +62,7 @@ const dadosTemporadas = async function () {
         conteudo.append(card);
         card.append(card_title, card_image,card_statistics);
         //Add Title
-        card_title.append(card_title_h3);
+        card_title.append(card_title_img,card_title_h3);
         //Add Img
         card_image.append(card_image_img);
         //Add Statistics
