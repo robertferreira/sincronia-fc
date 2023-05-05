@@ -1,6 +1,7 @@
 const dadosTemporadas = async function () {
     const dados_elenco= await fetch("../dados/jogadores.json");
     const elenco = await dados_elenco.json();
+    const icon_gamertag = '<i class="fa-brands fa-xbox"></i>';
 
     elenco.forEach(element => {
         var conteudo = document.getElementById('elenco-2');
@@ -42,7 +43,7 @@ const dadosTemporadas = async function () {
         //Conteúdo Card Statistics Table1
         card_statistics_table1_tr1_td1.innerText = 'Nome:';
         card_statistics_table1_tr1_td2.innerText = element.nome;
-        card_statistics_table1_tr2_td1.innerText = 'Gamertag:';
+        card_statistics_table1_tr2_td1.innerHTML = icon_gamertag + 'Gamertag:';
         card_statistics_table1_tr2_td2.innerText = element.gamertag;
         card_statistics_table1_tr3_td1.innerText = 'Apelido:';
         card_statistics_table1_tr3_td2.innerText = element.apelido;

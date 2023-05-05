@@ -43,6 +43,11 @@
     text-align: left;
 }
 
+.elenco-2-card-statistics td i{
+    color: var(--fonte-standard-5);
+    margin-right: 10px;
+}
+
 @media only screen and (max-width: 768px) {
     
     .elenco-2{
