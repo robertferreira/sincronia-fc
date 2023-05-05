@@ -3,6 +3,7 @@ const dadosTemporadas = async function () {
     const elenco = await dados_elenco.json();
     const icon_nome = '<i class="fa-solid fa-circle-user"></i>';
     const icon_gamertag = '<i class="fa-brands fa-xbox"></i>';
+    const icon_numero = '<i class="fa-solid fa-check"></i>';
 
     elenco.forEach(element => {
         var conteudo = document.getElementById('elenco-2');
@@ -55,7 +56,7 @@ const dadosTemporadas = async function () {
         card_statistics_table1_tr3_td2.innerText = element.apelido;
         card_statistics_table1_tr4_td1.innerText = 'Posição:';
         card_statistics_table1_tr4_td2.innerText =  element.posicao;
-        card_statistics_table1_tr5_td1.innerText = 'Número:';
+        card_statistics_table1_tr5_td1.innerHTML = 'Número:';
         card_statistics_table1_tr5_td2.innerText = element.numero;
 
         //Add Card

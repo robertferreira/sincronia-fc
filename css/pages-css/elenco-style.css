@@ -23,16 +23,16 @@
 
 .elenco-2-card-title {
     display: flex;
-    align-items: center;
+    align-items: end;
     font-size: 1.5em;
     padding: 5px;
+    margin-bottom: 5px;
     color: var(--fonte-standard-1);
 }
 
 .elenco-2-card-title img{
     width: 40px;
     margin-right: 15px;
-    margin-bottom: 5px;
 }
 
 .elenco-2-card-image{
