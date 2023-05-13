@@ -1,21 +1,11 @@
 /* GERAL - Galeria 1 */
 .galeria-1{
-    flex-direction: column;
+    flex-direction: row;
 }
 
 @media only screen and (max-width: 768px) {
 /* MOBILE - Galeria 1 */
 .galeria-1 {
     flex-direction: column;
-}
-
-.galeria-1-text{
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.galeria-1-img{
-    width: 100%;
-    margin-bottom: 15px;
 }
 }
