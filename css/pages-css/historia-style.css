@@ -8,7 +8,8 @@
     text-align: center;
     margin: 15px 0;
     padding: 30px;
-    background: linear-gradient(348deg, var(--cor-standard-2) 50%, #212121 100%);
+    background-color: var(--cor-standard-2);
+    box-shadow: 0px 0px 35px -25px var(--cor-standard-5);
 }
 
 .historia-1-text{
