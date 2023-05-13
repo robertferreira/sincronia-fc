@@ -3,28 +3,7 @@
     flex-direction: column;
 }
 
-.galeria-1-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-    padding: 30px;
-    background-color: var(--cor-standard-2);
-    box-shadow: 0px 0px 35px -25px var(--cor-standard-5);
-}
-
-.galeria-1-text{
-    width: 100%;
-}
-
-
 @media only screen and (max-width: 768px) {
-/* MOBILE */
-.galeria{
-    align-items: center;
-    flex-direction: column;
-}
 /* MOBILE - Galeria 1 */
 .galeria-1 {
     flex-direction: column;
