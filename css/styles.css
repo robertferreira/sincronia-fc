@@ -9,6 +9,7 @@
 @import url(./pages-css/temporadas-style.css);
 @import url(./pages-css/elenco-style.css);
 @import url(./pages-css/historia-style.css);
+@import url(./pages-css/galeria-style.css);
 
 :root {
     --cor-standard-1: #071a42;
