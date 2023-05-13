@@ -21,12 +21,10 @@ const dadosX2 = async function () {
       div_card_title_h3.innerHTML += bola_icon + element.fifa;
 
       //Card
-      div_conteudo.appendChild(div_card);
+      div_conteudo.append(div_card);
+      div_card.append(div_card_title,div_card_results);
       //Title
-      div_card.appendChild(div_card_title);
-      div_card_title.appendChild(div_card_title_h3);
-      //Results
-      div_card.appendChild(div_card_results);
+      div_card_title.append(div_card_title_h3);
 
       element.resultados.forEach(element => {
          //Create Result
@@ -79,27 +77,18 @@ const dadosX2 = async function () {
          div_result_player_img2_1.src = element.dupla_2.membro_2_time_img;
 
          //Results
-         div_card_results.appendChild(div_card_result);
+         div_card_results.append(div_card_result);
+         div_card_result.append(div_result_players1,div_result_scoreboard,div_result_players2);
          //Player1
-         div_card_result.appendChild(div_result_players1);
-         div_result_players1.appendChild(div_result_player1);
-         div_result_players1.appendChild(div_result_player1_1);
-         div_result_player1.appendChild(div_result_player_img1);
-         div_result_player1.appendChild(div_result_player_span1);
-         div_result_player1_1.appendChild(div_result_player_img1_1);
-         div_result_player1_1.appendChild(div_result_player_span1_1);
+         div_result_players1.append(div_result_player1,div_result_player1_1);
+         div_result_player1.append(div_result_player_img1,div_result_player_span1);
+         div_result_player1_1.append(div_result_player_img1_1,div_result_player_span1_1);
          //Scoreboard
-         div_card_result.appendChild(div_result_scoreboard);
-         div_result_scoreboard.appendChild(div_result_final1);
-         div_result_scoreboard.appendChild(div_result_final2);
+         div_result_scoreboard.append(div_result_final1,div_result_final2);
          //Player2
-         div_card_result.appendChild(div_result_players2);
-         div_result_players2.appendChild(div_result_player2);
-         div_result_players2.appendChild(div_result_player2_1);
-         div_result_player2.appendChild(div_result_player_img2);
-         div_result_player2.appendChild(div_result_player_span2);
-         div_result_player2_1.appendChild(div_result_player_img2_1);
-         div_result_player2_1.appendChild(div_result_player_span2_1);
+         div_result_players2.append(div_result_player2,div_result_player2_1);
+         div_result_player2.append(div_result_player_img2,div_result_player_span2);
+         div_result_player2_1.append(div_result_player_img2_1,div_result_player_span2_1);
       });
    });
 }

@@ -19,18 +19,18 @@ const dadosHome3Coluna = async function () {
         // INFORMAÇÕES DE MEMBROS
         let li_membros = document.createElement('li');
         li_membros.innerHTML = icon_membros + element.nome;
-        ul_membros.appendChild(li_membros);
+        ul_membros.append(li_membros);
         // INFORMAÇÕES DE MEMBROS
         let li_gamertag = document.createElement('li');
         li_gamertag.innerHTML = icon_gamertag + element.gamertag;
-        ul_gamertag.appendChild(li_gamertag);
+        ul_gamertag.append(li_gamertag);
     })
     
     games.forEach(element => {
         // INFORMAÇÕES DE GAMES
         let li_games = document.createElement('li');
         li_games.innerHTML = icon_games + element.nome_jogo;
-        ul_games.appendChild(li_games);
+        ul_games.append(li_games);
     });
     ;
 
