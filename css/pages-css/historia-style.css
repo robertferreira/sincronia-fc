@@ -1,0 +1,38 @@
+/* GERAL - Historia 1 */
+.historia-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.historia-1-img{
+    width: 100%;
+    text-align: center;
+    margin: auto 0;
+}
+
+.historia-1-text{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+/* MOBILE */
+.historia{
+    align-items: center;
+    flex-direction: column;
+}
+/* MOBILE - Historia 1 */
+.historia-1 {
+    flex-direction: column;
+}
+
+.historia-1-text{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.historia-1-img{
+    width: 100%;
+    margin: 10px 0px;
+}
+}
