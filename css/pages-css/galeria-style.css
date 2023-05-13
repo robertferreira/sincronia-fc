@@ -3,6 +3,36 @@
     flex-direction: row;
 }
 
+.galeria-2{
+    width: 100%;
+    flex-direction: row;
+}
+
+.galeria-2-conteudo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.galeria-2-img, .galeria-2-video{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    height: 320px;
+}
+
+.galeria-2-img h3, .galeria-2-video h3{
+    font-size: 1.7em;
+    padding: 5px;
+    color: var(--fonte-standard-1);
+}
+
+.galeria-2-img h3 i, .galeria-2-video h3 i{
+    color: var(--fonte-standard-5);
+    margin-right: 8px;
+}
+
 @media only screen and (max-width: 768px) {
 /* MOBILE - Galeria 1 */
 .galeria-1 {
