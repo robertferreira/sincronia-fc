@@ -12,6 +12,11 @@ const setaNextVideo = document.getElementById('seta-next-video');
 var cont_img = 0;
 var cont_video = 0;
 
+const dados_imagens = await fetch("../dados/imagens.json");
+const imagens = await dados_imagens.json();
+img.setAttribute('src', imagens[cont_img].imagem);
+
+/* IMAGEM */
 /* Função Return Imagem */
 const returnImage = async function () {
     const dados_imagens = await fetch("../dados/imagens.json");
@@ -22,7 +27,6 @@ const returnImage = async function () {
     img.setAttribute('src', imagens[cont_img].imagem);
     }
 }
-
 /* Função Next Imagem */
 const nextImage = async function () {
     const dados_imagens = await fetch("../dados/imagens.json");
@@ -34,5 +38,29 @@ const nextImage = async function () {
     }
 }
 
+/* VIDEO */
+/* Função Return Video */
+const returnVideo = async function () {
+    const dados_videos = await fetch("../dados/videos.json");
+    const videos = await dados_videos.json();
+
+    if (cont_video != 0){
+    cont_video--;
+    video.setAttribute('src', videos[cont_video].video);
+    }
+}
+/* Função Next Video */
+const nextVideo = async function () {
+    const dados_videos = await fetch("../dados/videos.json");
+    const videos = await dados_videos.json();
+
+    if (cont_video != (videos.length - 1)){
+        cont_video++;
+        video.setAttribute('src', videos[cont_video].video);
+    }
+}
+
 setaReturnImg.addEventListener("click", () =>{returnImage()});
 setaNextImg.addEventListener("click", () =>{nextImage()});
+setaReturnVideo.addEventListener("click", () =>{returnVideo()});
+setaNextVideo.addEventListener("click", () =>{nextVideo()});
