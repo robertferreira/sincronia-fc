@@ -5,7 +5,12 @@ const img = document.getElementById('img');
 const setaReturnImg = document.getElementById('seta-return-img');
 const setaNextImg = document.getElementById('seta-next-img');
 
+const video = document.getElementById('video');
+const setaReturnVideo = document.getElementById('seta-return-video');
+const setaNextVideo = document.getElementById('seta-next-video');
+
 var cont_img = 0;
+var cont_video = 0;
 
 /* Função Return Imagem */
 const returnImage = async function () {
