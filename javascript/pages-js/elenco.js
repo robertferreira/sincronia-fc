@@ -22,7 +22,7 @@ const dadosTemporadas = async function () {
         card_image.classList.add('elenco-2-card-image');
         //Create Image
         var card_image_img = document.createElement('img');
-        card_image_img.setAttribute('src','https://via.placeholder.com/300');
+        card_image_img.setAttribute('src',element.imagem);
         //Create Card Statistics
         var card_statistics = document.createElement('div');
         card_statistics.classList.add('elenco-2-card-statistics');
