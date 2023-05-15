@@ -36,6 +36,8 @@
 .galeria-2-carrosel{
     display: block;
     width: 100%;
+    position: relative;
+    top: -40px;
 }
 
 .galeria-2-video div iframe{
