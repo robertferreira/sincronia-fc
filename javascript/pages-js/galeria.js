@@ -9,12 +9,18 @@ const video = document.getElementById('video');
 const setaReturnVideo = document.getElementById('seta-return-video');
 const setaNextVideo = document.getElementById('seta-next-video');
 
+const imgBackground = document.getElementById('img-background');
+
 var cont_img = 0;
 var cont_video = 0;
 
 const dados_imagens = await fetch("../dados/imagens.json");
 const imagens = await dados_imagens.json();
-img.setAttribute('src', imagens[cont_img].imagem);
+imgBackground.style.backgroundImage = `url(${imagens[cont_img].imagem})`;
+
+const dados_videos = await fetch("../dados/videos.json");
+const videos = await dados_videos.json();
+video.setAttribute('src', videos[cont_video].video);
 
 /* IMAGEM */
 /* Função Return Imagem */
@@ -22,9 +28,9 @@ const returnImage = async function () {
     const dados_imagens = await fetch("../dados/imagens.json");
     const imagens = await dados_imagens.json();
 
-    if (cont_img != 0){
-    cont_img--;
-    img.setAttribute('src', imagens[cont_img].imagem);
+    if (cont_img != 0) {
+        cont_img--;
+        imgBackground.style.backgroundImage = `url(${imagens[cont_img].imagem})`;
     }
 }
 /* Função Next Imagem */
@@ -32,9 +38,9 @@ const nextImage = async function () {
     const dados_imagens = await fetch("../dados/imagens.json");
     const imagens = await dados_imagens.json();
 
-    if (cont_img != (imagens.length - 1)){
+    if (cont_img != (imagens.length - 1)) {
         cont_img++;
-        img.setAttribute('src', imagens[cont_img].imagem);
+        imgBackground.style.backgroundImage = `url(${imagens[cont_img].imagem})`;
     }
 }
 
@@ -44,9 +50,9 @@ const returnVideo = async function () {
     const dados_videos = await fetch("../dados/videos.json");
     const videos = await dados_videos.json();
 
-    if (cont_video != 0){
-    cont_video--;
-    video.setAttribute('src', videos[cont_video].video);
+    if (cont_video != 0) {
+        cont_video--;
+        video.setAttribute('src', videos[cont_video].video);
     }
 }
 /* Função Next Video */
@@ -54,13 +60,13 @@ const nextVideo = async function () {
     const dados_videos = await fetch("../dados/videos.json");
     const videos = await dados_videos.json();
 
-    if (cont_video != (videos.length - 1)){
+    if (cont_video != (videos.length - 1)) {
         cont_video++;
         video.setAttribute('src', videos[cont_video].video);
     }
 }
 
-setaReturnImg.addEventListener("click", () =>{returnImage()});
-setaNextImg.addEventListener("click", () =>{nextImage()});
-setaReturnVideo.addEventListener("click", () =>{returnVideo()});
-setaNextVideo.addEventListener("click", () =>{nextVideo()});
+setaReturnImg.addEventListener("click", () => { returnImage() });
+setaNextImg.addEventListener("click", () => { nextImage() });
+setaReturnVideo.addEventListener("click", () => { returnVideo() });
+setaNextVideo.addEventListener("click", () => { nextVideo() });
