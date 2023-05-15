@@ -1,22 +1,25 @@
+/* ICONES */
 const icon_fotos = '<i class="fa-solid fa-image"></i>';
 const icon_videos = '<i class="fa-brands fa-youtube"></i>';
 
+/* COMPONENTES IMAGEM */
 const img = document.getElementById('img');
 const setaReturnImg = document.getElementById('seta-return-img');
 const setaNextImg = document.getElementById('seta-next-img');
 
+/* COMPONENTES VIDEO */
 const video = document.getElementById('video');
 const setaReturnVideo = document.getElementById('seta-return-video');
 const setaNextVideo = document.getElementById('seta-next-video');
 
-const imgBackground = document.getElementById('img-background');
+
 
 var cont_img = 0;
 var cont_video = 0;
 
 const dados_imagens = await fetch("../dados/imagens.json");
 const imagens = await dados_imagens.json();
-imgBackground.style.backgroundImage = `url(${imagens[cont_img].imagem})`;
+img.style.backgroundImage = `url(${imagens[cont_img].imagem})`;
 
 const dados_videos = await fetch("../dados/videos.json");
 const videos = await dados_videos.json();
@@ -30,7 +33,7 @@ const returnImage = async function () {
 
     if (cont_img != 0) {
         cont_img--;
-        imgBackground.style.backgroundImage = `url(${imagens[cont_img].imagem})`;
+        img.style.backgroundImage = `url(${imagens[cont_img].imagem})`;
     }
 }
 /* Função Next Imagem */
@@ -40,7 +43,7 @@ const nextImage = async function () {
 
     if (cont_img != (imagens.length - 1)) {
         cont_img++;
-        imgBackground.style.backgroundImage = `url(${imagens[cont_img].imagem})`;
+        img.style.backgroundImage = `url(${imagens[cont_img].imagem})`;
     }
 }
 
@@ -66,6 +69,7 @@ const nextVideo = async function () {
     }
 }
 
+/* CLICKS */
 setaReturnImg.addEventListener("click", () => { returnImage() });
 setaNextImg.addEventListener("click", () => { nextImage() });
 setaReturnVideo.addEventListener("click", () => { returnVideo() });
