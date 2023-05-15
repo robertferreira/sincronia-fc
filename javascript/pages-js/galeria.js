@@ -12,15 +12,16 @@ const video = document.getElementById('video');
 const setaReturnVideo = document.getElementById('seta-return-video');
 const setaNextVideo = document.getElementById('seta-next-video');
 
-
-
+/* CONTADORES */
 var cont_img = 0;
 var cont_video = 0;
 
+/* CARREGAR PRIMEIRA IMAGEM */
 const dados_imagens = await fetch("../dados/imagens.json");
 const imagens = await dados_imagens.json();
 img.style.backgroundImage = `url(${imagens[cont_img].imagem})`;
 
+/* CARREGAR PRIMEIRO VIDEO */
 const dados_videos = await fetch("../dados/videos.json");
 const videos = await dados_videos.json();
 video.setAttribute('src', videos[cont_video].video);
