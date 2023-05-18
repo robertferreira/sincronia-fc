@@ -1,11 +1,26 @@
 [
     {
-        "imagem":"https://placehold.co/1000x700"
+        "imagem":"../imagens/galeria/imagem1.jpg"
     },
     {
-        "imagem":"https://placehold.co/600x400"
+        "imagem":"../imagens/galeria/imagem2.jpg"
     },
     {
-        "imagem":"https://placehold.co/700x400"
+        "imagem":"../imagens/galeria/imagem3.jpg"
+    },
+    {
+        "imagem":"../imagens/galeria/imagem4.jpg"
+    },
+    {
+        "imagem":"../imagens/galeria/imagem5.jpg"
+    },
+    {
+        "imagem":"../imagens/galeria/imagem6.jpg"
+    },
+    {
+        "imagem":"../imagens/galeria/imagem7.jpg"
+    },
+    {
+        "imagem":"../imagens/galeria/imagem8.jpg"
     }
 ]
