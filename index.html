@@ -9,6 +9,7 @@
   <link rel="icon" type="image/x-icon" href="imagens/logo/Logo.ico">
   <!-- JS-->
   <script src="javascript/script.js" defer></script>
+  <script src="javascript/pop-up.js" defer></script>
   <script src="javascript/pages-js/home.js" type="module"></script>
   <!-- STYLES CSS -->
   <link rel="stylesheet" href="css/styles.css">
@@ -17,7 +18,8 @@
 </head>
 
 <body>
-  <div class="pop-up-background">
+  <!--POP-UP-->
+  <div class="pop-up-background" id="pop-up-open">
     <div class="pop-up">
       <div class="pop-up-text">
         <h2> Seja Bem-Vindo </h2>
@@ -26,8 +28,8 @@
       <div class="pop-up-img">
         IMG
       </div>
-      <div class="pop-up-exit">
-        <button> X </button>
+      <div class="pop-up-exit" >
+        <button id="button-exit"> X </button>
       </div>
     </div>
   </div>

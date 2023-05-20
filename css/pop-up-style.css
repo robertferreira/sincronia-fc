@@ -19,6 +19,10 @@
     padding: 20px;
 }
 
+#pop-up-exit{
+    display: none;
+}
+
 .pop-up-text{
     font-size: 0.9em;
     width: 50%;
@@ -50,4 +54,5 @@
     border: 0px;
     height: 30px;
     width: 30px;
+    cursor: pointer;
 } 
