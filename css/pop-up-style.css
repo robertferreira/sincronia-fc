@@ -45,6 +45,8 @@
 .pop-up-img img{
     width: 100%;
     border-radius: 100%;
+    filter: grayscale(1);
+    
 }
 
 .pop-up-exit{
