@@ -25,8 +25,8 @@ const abrirPopUp = function(){
     /*CONTEUDO POP-UP*/
     popUpH2.innerText = 'Navegue pelo meu Portfólio';
     popUpP.innerHTML =
-    `<p> Este site foi totalmente desenvolvido utilizando apenas HTML, CSS e JavaScript. Sendo uma demonstração de minhas habilidades como programador. </p>
-    <p> Apresentando o meu time no FIFA Pro Clubs, este site destaca com orgulho nossas conquistas, estatísticas e espírito competitivo. </p>`;
+    `<p>Este site foi totalmente desenvolvido utilizando apenas HTML, CSS e JavaScript.</p>
+     <p>Como uma demonstração das minhas habilidades como programador, este site apresenta com orgulho o meu time no FIFA Pro Clubs, destacando nossas conquistas, estatísticas e espírito competitivo.</p>`;
     popUpImg.setAttribute('src', './imagens/pop-up/html-css-js.png')
     popUpButtonExit.innerText = 'X';
 
