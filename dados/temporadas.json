@@ -1,62 +1,62 @@
 [
-    {
-        "fifa":"FIFA 22",
-        "temporadas":33,
-        "titulos_liga":14,
-        "titulos_copa":4,
-        "acessos":14,
-        "rebaixamentos":5,
-        "jogos":299,
-        "vitorias":150,
-        "empates":49,
-        "derrotas":100
-    },
-    {
-        "fifa":"FIFA 21",
-        "temporadas":0,
-        "titulos_liga":0,
-        "titulos_copa":0,
-        "acessos":0,
-        "rebaixamentos":0,
-        "jogos":0,
-        "vitorias":0,
-        "empates":0,
-        "derrotas":0
-    },
-    {
-        "fifa":"FIFA 20",
-        "temporadas":0,
-        "titulos_liga":0,
-        "titulos_copa":0,
-        "acessos":0,
-        "rebaixamentos":0,
-        "jogos":0,
-        "vitorias":0,
-        "empates":0,
-        "derrotas":0
-    },
-    {
-        "fifa":"FIFA 19",
-        "temporadas":0,
-        "titulos_liga":0,
-        "titulos_copa":0,
-        "acessos":0,
-        "rebaixamentos":0,
-        "jogos":0,
-        "vitorias":0,
-        "empates":0,
-        "derrotas":0
-    },
-    {
-        "fifa":"FIFA 18",
-        "temporadas":0,
-        "titulos_liga":0,
-        "titulos_copa":0,
-        "acessos":0,
-        "rebaixamentos":0,
-        "jogos":0,
-        "vitorias":0,
-        "empates":0,
-        "derrotas":0
-    }
+  {
+    "fifa": "FIFA 22",
+    "temporadas": 33,
+    "titulos_liga": 14,
+    "titulos_copa": 4,
+    "acessos": 14,
+    "rebaixamentos": 5,
+    "jogos": 299,
+    "vitorias": 150,
+    "empates": 49,
+    "derrotas": 100
+  },
+  {
+    "fifa": "FIFA 21",
+    "temporadas": 0,
+    "titulos_liga": 0,
+    "titulos_copa": 0,
+    "acessos": 0,
+    "rebaixamentos": 0,
+    "jogos": 0,
+    "vitorias": 0,
+    "empates": 0,
+    "derrotas": 0
+  },
+  {
+    "fifa": "FIFA 20",
+    "temporadas": 0,
+    "titulos_liga": 0,
+    "titulos_copa": 0,
+    "acessos": 0,
+    "rebaixamentos": 0,
+    "jogos": 0,
+    "vitorias": 0,
+    "empates": 0,
+    "derrotas": 0
+  },
+  {
+    "fifa": "FIFA 19",
+    "temporadas": "N/D",
+    "titulos_liga": "N/D",
+    "titulos_copa": "N/D",
+    "acessos": "N/D",
+    "rebaixamentos": "N/D",
+    "jogos": "N/D",
+    "vitorias": "N/D",
+    "empates": "N/D",
+    "derrotas": "N/D"
+  },
+  {
+    "fifa": "FIFA 18",
+    "temporadas": 21,
+    "titulos_liga": 8,
+    "titulos_copa": "N/D",
+    "acessos": "N/D",
+    "rebaixamentos": "N/D",
+    "jogos": 190,
+    "vitorias": 88,
+    "empates": 37,
+    "derrotas": 65
+  }
 ]
