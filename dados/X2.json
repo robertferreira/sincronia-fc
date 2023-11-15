@@ -1,267 +1,161 @@
 [
-    {
-        "fifa":"FIFA 22",
-        "resultados":[
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"P7",
-                    "membro_2_time_img":"../imagens/times/cruzeiro.png",
-                    "vitorias":"10"
-                },
-                "dupla_2":{
-                    "membro_1":"M9",
-                    "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"4"
-                }
-            },
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"M9",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"10"
-                },
-                "dupla_2":{
-                    "membro_1":"P7",
-                    "membro_1_time_img":"../imagens/times/cruzeiro.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"3"
-                }
-            },
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"2"
-                },
-                "dupla_2":{
-                    "membro_1":"M9",
-                    "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"P7",
-                    "membro_2_time_img":"../imagens/times/cruzeiro.png",
-                    "vitorias":"0"
-                }
-            }
-        ]
-    },
-    {
-        "fifa":"FIFA 21",
-        "resultados":[
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"P7",
-                    "membro_2_time_img":"../imagens/times/cruzeiro.png",
-                    "vitorias":"0"
-                },
-                "dupla_2":{
-                    "membro_1":"M9",
-                    "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                }
-            },
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"M9",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                },
-                "dupla_2":{
-                    "membro_1":"P7",
-                    "membro_1_time_img":"../imagens/times/cruzeiro.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                }
-            },
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                },
-                "dupla_2":{
-                    "membro_1":"M9",
-                    "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"P7",
-                    "membro_2_time_img":"../imagens/times/cruzeiro.png",
-                    "vitorias":"0"
-                }
-            }
-        ]
-    },
-    {
-        "fifa":"FIFA 20",
-        "resultados":[
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"P7",
-                    "membro_2_time_img":"../imagens/times/cruzeiro.png",
-                    "vitorias":"0"
-                },
-                "dupla_2":{
-                    "membro_1":"M9",
-                    "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                }
-            },
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"M9",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                },
-                "dupla_2":{
-                    "membro_1":"P7",
-                    "membro_1_time_img":"../imagens/times/cruzeiro.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                }
-            },
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                },
-                "dupla_2":{
-                    "membro_1":"M9",
-                    "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"P7",
-                    "membro_2_time_img":"../imagens/times/cruzeiro.png",
-                    "vitorias":"0"
-                }
-            }
-        ]
-    },
-    {
-        "fifa":"FIFA 19",
-        "resultados":[
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"P7",
-                    "membro_2_time_img":"../imagens/times/cruzeiro.png",
-                    "vitorias":"0"
-                },
-                "dupla_2":{
-                    "membro_1":"M9",
-                    "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                }
-            },
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"M9",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                },
-                "dupla_2":{
-                    "membro_1":"P7",
-                    "membro_1_time_img":"../imagens/times/cruzeiro.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                }
-            },
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                },
-                "dupla_2":{
-                    "membro_1":"M9",
-                    "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"P7",
-                    "membro_2_time_img":"../imagens/times/cruzeiro.png",
-                    "vitorias":"0"
-                }
-            }
-        ]
-    },
-    {
-        "fifa":"FIFA 18",
-        "resultados":[
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"P7",
-                    "membro_2_time_img":"../imagens/times/cruzeiro.png",
-                    "vitorias":"0"
-                },
-                "dupla_2":{
-                    "membro_1":"M9",
-                    "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                }
-            },
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"M9",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                },
-                "dupla_2":{
-                    "membro_1":"P7",
-                    "membro_1_time_img":"../imagens/times/cruzeiro.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                }
-            },
-            {
-                "dupla_1":{
-                    "membro_1":"P10",
-                    "membro_1_time_img":"../imagens/times/sao-paulo.png",
-                    "membro_2":"D89",
-                    "membro_2_time_img":"../imagens/times/bahia.png",
-                    "vitorias":"0"
-                },
-                "dupla_2":{
-                    "membro_1":"M9",
-                    "membro_1_time_img":"../imagens/times/bahia.png",
-                    "membro_2":"P7",
-                    "membro_2_time_img":"../imagens/times/cruzeiro.png",
-                    "vitorias":"0"
-                }
-            }
-        ]
-    }
+  {
+    "fifa": "FIFA 22",
+    "resultados": [
+      {
+        "dupla_1": {
+          "membro_1": "P10",
+          "membro_1_time_img": "../imagens/times/sao-paulo.png",
+          "membro_2": "P7",
+          "membro_2_time_img": "../imagens/times/cruzeiro.png",
+          "vitorias": "10"
+        },
+        "dupla_2": {
+          "membro_1": "M9",
+          "membro_1_time_img": "../imagens/times/bahia.png",
+          "membro_2": "D89",
+          "membro_2_time_img": "../imagens/times/bahia.png",
+          "vitorias": "4"
+        }
+      },
+      {
+        "dupla_1": {
+          "membro_1": "P10",
+          "membro_1_time_img": "../imagens/times/sao-paulo.png",
+          "membro_2": "M9",
+          "membro_2_time_img": "../imagens/times/bahia.png",
+          "vitorias": "10"
+        },
+        "dupla_2": {
+          "membro_1": "P7",
+          "membro_1_time_img": "../imagens/times/cruzeiro.png",
+          "membro_2": "D89",
+          "membro_2_time_img": "../imagens/times/bahia.png",
+          "vitorias": "3"
+        }
+      },
+      {
+        "dupla_1": {
+          "membro_1": "P10",
+          "membro_1_time_img": "../imagens/times/sao-paulo.png",
+          "membro_2": "D89",
+          "membro_2_time_img": "../imagens/times/bahia.png",
+          "vitorias": "10"
+        },
+        "dupla_2": {
+          "membro_1": "M9",
+          "membro_1_time_img": "../imagens/times/bahia.png",
+          "membro_2": "P7",
+          "membro_2_time_img": "../imagens/times/cruzeiro.png",
+          "vitorias": "8"
+        }
+      }
+    ]
+  },
+  {
+    "fifa": "FIFA 21",
+    "resultados": [
+      {
+        "dupla_1": {
+          "membro_1": "P10",
+          "membro_1_time_img": "../imagens/times/sao-paulo.png",
+          "membro_2": "P7",
+          "membro_2_time_img": "../imagens/times/cruzeiro.png",
+          "vitorias": "10"
+        },
+        "dupla_2": {
+          "membro_1": "M9",
+          "membro_1_time_img": "../imagens/times/bahia.png",
+          "membro_2": "D89",
+          "membro_2_time_img": "../imagens/times/bahia.png",
+          "vitorias": "2"
+        }
+      },
+      {
+        "dupla_1": {
+          "membro_1": "P10",
+          "membro_1_time_img": "../imagens/times/sao-paulo.png",
+          "membro_2": "M9",
+          "membro_2_time_img": "../imagens/times/bahia.png",
+          "vitorias": "10"
+        },
+        "dupla_2": {
+          "membro_1": "P7",
+          "membro_1_time_img": "../imagens/times/cruzeiro.png",
+          "membro_2": "D89",
+          "membro_2_time_img": "../imagens/times/bahia.png",
+          "vitorias": "4"
+        }
+      },
+      {
+        "dupla_1": {
+          "membro_1": "P10",
+          "membro_1_time_img": "../imagens/times/sao-paulo.png",
+          "membro_2": "D89",
+          "membro_2_time_img": "../imagens/times/bahia.png",
+          "vitorias": "10"
+        },
+        "dupla_2": {
+          "membro_1": "M9",
+          "membro_1_time_img": "../imagens/times/bahia.png",
+          "membro_2": "P7",
+          "membro_2_time_img": "../imagens/times/cruzeiro.png",
+          "vitorias": "6"
+        }
+      }
+    ]
+  },
+  {
+    "fifa": "FIFA 20",
+    "resultados": [
+      {
+        "dupla_1": {
+          "membro_1": "P10",
+          "membro_1_time_img": "../imagens/times/sao-paulo.png",
+          "membro_2": "P7",
+          "membro_2_time_img": "../imagens/times/cruzeiro.png",
+          "vitorias": "10"
+        },
+        "dupla_2": {
+          "membro_1": "M9",
+          "membro_1_time_img": "../imagens/times/bahia.png",
+          "membro_2": "D89",
+          "membro_2_time_img": "../imagens/times/bahia.png",
+          "vitorias": "4"
+        }
+      },
+      {
+        "dupla_1": {
+          "membro_1": "P10",
+          "membro_1_time_img": "../imagens/times/sao-paulo.png",
+          "membro_2": "M9",
+          "membro_2_time_img": "../imagens/times/bahia.png",
+          "vitorias": "10"
+        },
+        "dupla_2": {
+          "membro_1": "P7",
+          "membro_1_time_img": "../imagens/times/cruzeiro.png",
+          "membro_2": "D89",
+          "membro_2_time_img": "../imagens/times/bahia.png",
+          "vitorias": "6"
+        }
+      },
+      {
+        "dupla_1": {
+          "membro_1": "P10",
+          "membro_1_time_img": "../imagens/times/sao-paulo.png",
+          "membro_2": "D89",
+          "membro_2_time_img": "../imagens/times/bahia.png",
+          "vitorias": "10"
+        },
+        "dupla_2": {
+          "membro_1": "M9",
+          "membro_1_time_img": "../imagens/times/bahia.png",
+          "membro_2": "P7",
+          "membro_2_time_img": "../imagens/times/cruzeiro.png",
+          "vitorias": "4"
+        }
+      }
+    ]
+  }
 ]
