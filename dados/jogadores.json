@@ -1,52 +1,52 @@
 [
-    {
-        "id":"P10",
-        "nome":"Robert Ferreira",
-        "gamertag":"DarkDidi10",
-        "apelido":"Padelli",
-        "posicao":"PD",
-        "numero":"10",
-        "time":"../imagens/times/sao-paulo.png",
-        "imagem":"../imagens/jogadores/P10.png"
-    },
-    {
-        "id":"M9",
-        "nome":"Marcelo Santana",
-        "gamertag":"Drigomax",
-        "apelido":"Marquisio",
-        "posicao":"ATA",
-        "numero":"9",
-        "time":"../imagens/times/bahia.png",
-        "imagem":"../imagens/jogadores/M9.png"
-    },
-    {
-        "id":"D89",
-        "nome":"Guilherme Reis",
-        "gamertag":"PhdM1st3r",
-        "apelido":"Dentinho",
-        "posicao":"PE",
-        "numero":"89",
-        "time":"../imagens/times/bahia.png",
-        "imagem":"../imagens/jogadores/D89.png"
-    },
-    {
-        "id":"P7",
-        "nome":"Getúlio Duarte",
-        "gamertag":"Mineirinho02",
-        "apelido":"Pereira",
-        "posicao":"MEI",
-        "numero":"7",
-        "time":"../imagens/times/cruzeiro.png",
-        "imagem":"../imagens/jogadores/P7.png"
-    },
-    {
-        "id":"O8",
-        "nome":"Otavio Duarte",
-        "gamertag":"PeixeBeta01",
-        "apelido":"Falso 9",
-        "posicao":"VOL",
-        "numero":"8",
-        "time":"../imagens/times/cruzeiro.png",
-        "imagem":"../imagens/jogadores/O8.png"
-    }
+  {
+    "id": "P10",
+    "nome": "Robert Ferreira",
+    "gamertag": "DarkDidi10",
+    "apelido": "Padelli",
+    "posicao": "PD",
+    "numero": "10",
+    "time": "../imagens/times/sao-paulo.png",
+    "imagem": "../imagens/jogadores/P10.jpeg"
+  },
+  {
+    "id": "M9",
+    "nome": "Marcelo Santana",
+    "gamertag": "Drigomax",
+    "apelido": "Marquisio",
+    "posicao": "ATA",
+    "numero": "9",
+    "time": "../imagens/times/bahia.png",
+    "imagem": "../imagens/jogadores/M9.jpeg"
+  },
+  {
+    "id": "D89",
+    "nome": "Guilherme Reis",
+    "gamertag": "PhdM1st3r",
+    "apelido": "Dentinho",
+    "posicao": "PE",
+    "numero": "89",
+    "time": "../imagens/times/bahia.png",
+    "imagem": "../imagens/jogadores/D89.jpeg"
+  },
+  {
+    "id": "P7",
+    "nome": "Getúlio Duarte",
+    "gamertag": "Mineirinho02",
+    "apelido": "Pereira",
+    "posicao": "MEI",
+    "numero": "7",
+    "time": "../imagens/times/cruzeiro.png",
+    "imagem": "../imagens/jogadores/P7.jpeg"
+  },
+  {
+    "id": "O8",
+    "nome": "Otavio Duarte",
+    "gamertag": "PeixeBeta01",
+    "apelido": "Falso 9",
+    "posicao": "VOL",
+    "numero": "8",
+    "time": "../imagens/times/cruzeiro.png",
+    "imagem": "../imagens/jogadores/O8.png"
+  }
 ]
