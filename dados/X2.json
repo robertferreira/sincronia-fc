@@ -11,8 +11,8 @@
           "vitorias": "0"
         },
         "dupla_2": {
-          "membro_2": "P7",
-          "membro_2_time_img": "../imagens/times/cruzeiro.png",
+          "membro_1": "P7",
+          "membro_1_time_img": "../imagens/times/cruzeiro.png",
           "vitorias": "0"
         }
       },
@@ -39,8 +39,8 @@
           "vitorias": "0"
         },
         "dupla_2": {
-          "membro_2": "P7",
-          "membro_2_time_img": "../imagens/times/cruzeiro.png",
+          "membro_1": "P7",
+          "membro_1_time_img": "../imagens/times/cruzeiro.png",
           "vitorias": "0"
         }
       }
