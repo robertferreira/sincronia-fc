@@ -13,6 +13,8 @@
         "dupla_2": {
           "membro_1": "P7",
           "membro_1_time_img": "../imagens/times/cruzeiro.png",
+          "membro_2": "WO",
+          "membro_2_time_img": "../imagens/times/mamadeira.png",
           "vitorias": "0"
         }
       },
@@ -27,6 +29,8 @@
         "dupla_2": {
           "membro_1": "P7",
           "membro_1_time_img": "../imagens/times/cruzeiro.png",
+          "membro_2": "WO",
+          "membro_2_time_img": "../imagens/times/mamadeira.png",
           "vitorias": "0"
         }
       },
@@ -41,6 +45,8 @@
         "dupla_2": {
           "membro_1": "P7",
           "membro_1_time_img": "../imagens/times/cruzeiro.png",
+          "membro_2": "WO",
+          "membro_2_time_img": "../imagens/times/mamadeira.png",
           "vitorias": "0"
         }
       }
